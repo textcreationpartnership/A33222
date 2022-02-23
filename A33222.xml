@@ -1,0 +1,636 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Several captious queries concerning the English Reformation first proposed by Dean Manby (an Irish convert) in Latin, and afterwards by T.W. in English, briefly and fully answered by Dr. Clagett.</title>
+            <author>Clagett, William, 1646-1688.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1688</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 92 KB of XML-encoded text transcribed from 26 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A33222</idno>
+            <idno type="STC">Wing C4399</idno>
+            <idno type="STC">ESTC R27257</idno>
+            <idno type="EEBO-CITATION">09790518</idno>
+            <idno type="OCLC">ocm 09790518</idno>
+            <idno type="VID">44074</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A33222)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 44074)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1353:3)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Several captious queries concerning the English Reformation first proposed by Dean Manby (an Irish convert) in Latin, and afterwards by T.W. in English, briefly and fully answered by Dr. Clagett.</title>
+                  <author>Clagett, William, 1646-1688.</author>
+               </titleStmt>
+               <extent>47, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by H. Clark for James Adamson,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1688.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Ward, Thomas, 1652-1708. --  Some queries to the Protestants concerning the English Reformation.</term>
+               <term>Manby, Peter, d. 1697. --  Considerations which obliged Peter Manby, Dean of Derry, to embrace the Catholique religion.</term>
+               <term>Reformation --  Great Britain.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-10</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2013-10</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="imprimatur">
+            <pb facs="tcp:44074:1"/>
+            <p>Imprimatur,</p>
+            <closer>
+               <signed>
+                  <hi>Liber cui Titulus,</hi> Several Captious Queries, <hi>&amp;c. Guil. Needham.</hi>
+               </signed> 
+               <dateline>
+                  <date>May 10. 1688.</date>
+               </dateline>
+            </closer>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:44074:1" rendition="simple:additions"/>
+            <p>Several Captious QUERIES Concerning the <hi>English Reformation,</hi> First Proposed By Dean <hi>Manby</hi> (an <hi>Iriſh</hi> Convert) in <hi>Latin,</hi> And afterwards by <hi>T.W.</hi> in <hi>Engliſh;</hi> Briefly and Fully ANSWER'D</p>
+            <p>By the late Reverend and Learned Dr. <hi>CLAGETT,</hi> Preacher to the Honourable Society of <hi>Grays-Inn,</hi> and Chaplain in Ordinary to His Majeſty.</p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>H. Clark,</hi> for <hi>James Adamson,</hi> at the Angel and Crown in St. <hi>Paul's Church-Yard,</hi> MDCLXXXVIII.</p>
+         </div>
+      </front>
+      <body>
+         <div type="answer">
+            <pb facs="tcp:44074:2"/>
+            <pb n="3" facs="tcp:44074:2"/>
+            <head>AN ANSWER TO T.W's. QUERIES,</head>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>1</label> 
+               <hi>Quer.</hi> 
+               <q>THe Church of <hi>England</hi> is either the whole <hi>Catholick</hi> Church, or a <hi>Member</hi> thereof; If a Member only, Name me that Church or Congregation, under the Sun, whose <hi>Sacraments</hi> and <hi>Liturgy</hi> ſhe embraces, unleſs ſhe have cut her ſelf off form the reſt of the Body.</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> If the Church of <hi>Rome</hi> were ſpread over the Face of the whole Earth, excepting here in <hi>England,</hi> and nothing would ſerve, but we or they muſt be the Catholick Church, Reaſon would re<g ref="char:EOLhyphen"/>quire that the Church of <hi>England</hi> ſhould be ſo, which is the <hi>better,</hi> and not the Church of <hi>Rome,</hi> which would be but the <hi>bigger</hi> Church. But we pretend not to be the Catholick Church, becauſe we neither need, nor ought to boaſt beyond Truth. The <hi>Sacraments</hi> we <hi>embrace</hi> are received by All Chriſtian Churches in the World, and no Church ought to receive any more. We <hi>embrace</hi> the <hi>Li<g ref="char:EOLhyphen"/>turgies</hi> of the other <hi>Reformed</hi> Churches, and uſe our own, as they uſe their own, and <hi>embrace</hi> ours. We
+<pb n="4" facs="tcp:44074:3"/>
+               <hi>embrace</hi> all that honeſt Chiſtians can <hi>embrace</hi> in the <hi>Liturgies</hi> of the <hi>
+                  <g ref="char:V">Ʋ</g>nreformed,</hi> and we reject the reſt. We have not <hi>cut our ſelves off from the reſt of the Body,</hi> but the Church of <hi>Rome</hi> has done ſo, becauſe ſhe is reſolved to be <hi>All</hi> or <hi>Nothing.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>2</label> 
+               <hi>Quer.</hi> 
+               <q>Does ſhe allow the <hi>Sacraments</hi> of <hi>Luthe<g ref="char:EOLhyphen"/>rans</hi> or <hi>Calviniſts?</hi>
+               </q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> She allows and adminiſters the ſame Sa<g ref="char:EOLhyphen"/>craments, that <hi>Lutherans</hi> and <hi>Calviniſts</hi> do, not becauſe they are Sacraments celebrated by them, or by any others; but becauſe they are Sacraments inſtituted by <hi>Christ.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>3</label> 
+               <hi>Quer.</hi> 
+               <q>From whence was <hi>Cranmer,</hi> that firſt <hi>Pa<g ref="char:EOLhyphen"/>triarch,</hi> or <hi>Reformer</hi> of the Church of <hi>England</hi> ſent? Who gave him Authority to preach his Reformed Goſpel? Was it juſt or honeſt for him to riſe up againſt the Church of <hi>Rome</hi> by vertue of a Commiſſion from her received? And if ſo, I pray inform me, whether a Biſhop or Miniſter fallen from the Church of <hi>England,</hi> may not alſo take upon him to Preach againſt the Church of <hi>England,</hi> by pretence of the Orders received from her hands?</q>
+            </p>
+            <p>
+               <hi>Anſw. Cranmer was immediately ſent</hi> by the Bi<g ref="char:EOLhyphen"/>ſhops that Ordained and Conſecrated him, <hi>Origi<g ref="char:EOLhyphen"/>nally</hi> by <hi>Chriſt,</hi> who left that Power in the Church, by which they did ſo: So far therefore as he was <hi>the Firſt Reformer</hi> of the Church of <hi>England,</hi> he did what became his Miſſion, better than if he had gone on to maintain Falſe Doctrins, as the <hi>Patri<g ref="char:EOLhyphen"/>arch</hi> of <hi>Rome</hi> did. That he was the <hi>Firſt Reformer</hi> was not his fault, but theirs, who went before him in that great Station, and ſhould have done the ſame thing, but did it not. The Goſpel which he preached, was not the Goſpel of Man, and there<g ref="char:EOLhyphen"/>fore
+<pb n="5" facs="tcp:44074:3"/>not <hi>his own,</hi> but the Goſpel of <hi>Chriſt.</hi> Nor was it properly a <hi>Reformed Goſpel</hi> which he preached, ſince the Goſpel of <hi>Chriſt</hi> is in all Ages one and the ſame. But if becauſe he reformed the Profeſſi<g ref="char:EOLhyphen"/>on of the Church in ſome things, which were no part of the Goſpel, though they were pretended to be ſo, he muſt be ſaid to have preached a <hi>Reformed Goſpel;</hi> neither was he to blame for that, whoſe Duty it was to <hi>caſt Errors out</hi> of the Church, but they only were to blame, who had been ſo careleſs and treacherous, as to <hi>let them in.</hi> He did <hi>riſe up againſt</hi> the Church of <hi>Rome,</hi> when he aroſe a<g ref="char:EOLhyphen"/>gainſt the Corruptions of that Church, which had obtained in <hi>England;</hi> unleſs the Church of <hi>Rome</hi> cannot ſubſiſt without ſuch notorious Errors, as he roſe up againſt. He was not her <hi>Enemy,</hi> unleſs he <hi>became</hi> ſo by <hi>telling</hi> her <hi>the Truth.</hi> Nor is it true that he <hi>receiv'd his Commiſſion</hi> from <hi>Rome,</hi> though he receiv'd it by the hands of Biſhops, that were in ſervitude to that <hi>See:</hi> For his Commiſſion had been every whit as good, if they had not been ſubject to the <hi>Roman</hi> Biſhop, as they ought not to have been. But ſince his Obligation to <hi>Chriſt,</hi> from whom he received his Commiſſion by their hands, was in<g ref="char:EOLhyphen"/>finitely greater than to them, it was <hi>juſt and honeſt</hi> in him <hi>to riſe up againſt</hi> those Unchriſtian Doctrins and Practices which they maintained; and no leſs juſtifiable then to have riſen up againſt the <hi>Arian</hi> Hereſie, if he had received his Orders from <hi>Arian</hi> Biſhops. And if ever the Church of <hi>England</hi> ſhould fall into the like Corruptions again, (which God forbid) those Biſhops and Miniſters that have received Orders from her hands, and who in <hi>diſ<g ref="char:EOLhyphen"/>charge</hi> thereof <hi>take upon them to preach</hi> (not <hi>againſt the Church of England,</hi> but) againſt the wicked
+<pb n="6" facs="tcp:44074:4"/>Doctrines and Practices of the Church; thoſe Bi<g ref="char:EOLhyphen"/>ſhops, <hi>&amp;c.</hi> I ſay, will do not only what they <hi>may,</hi> but what they <hi>ought</hi> to do, and for the doing of which, they ſhall be rewarded at the laſt day by the Great Biſhop and Shepherd of Souls, by whoſe Authority and Command they ſo did.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>4</label> 
+               <hi>Quer.</hi> 
+               <q>Whether want of <hi>Miſſion</hi> be not an Error in the Foundation of any Church? It being <hi>Theft</hi> and <hi>Robbery</hi> (as our Saviour hath taught us) not <hi>to enter by the Door into the Sheepfold.</hi>
+               </q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> That <hi>Cranmer</hi> did, or that our Paſtors now do want <hi>Miſſion,</hi> is Falſhood inſinuated by this <hi>Query:</hi> Their Miſſion has been more Canonical than that of many of your Popes has been. But for once to Anſwer directly to an Impertinent Queſtion. The want of ſuch Miſſion does not deſtroy the Be<g ref="char:EOLhyphen"/>ing, or as you call it, the <hi>Foundation</hi> of a Church. Nor is that the <hi>Door</hi> of which our Saviour ſpake in <hi>Joh.</hi> X. ſince in the needs of the Church <hi>Good Shep<g ref="char:EOLhyphen"/>herd may come into the Fold</hi> without Canonical Miſ<g ref="char:EOLhyphen"/>ſion, and it has on the other ſide too often happened, that <hi>Thieves and Robbers</hi> have come into the Fold by it, who <hi>came not but for to ſteal, and to kill, and to deſtroy.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>5</label> 
+               <hi>Quer.</hi> 
+               <q>Whether <hi>Cranmer</hi> entred by the <hi>Parlia<g ref="char:EOLhyphen"/>ment Door,</hi> or by the Gate of the <hi>Scriptures?</hi> But this latter is the Old Song of <hi>Hereticks</hi> and <hi>Secta<g ref="char:EOLhyphen"/>ries,</hi> perpetually boaſting of <hi>Scripture.</hi> I demand therefore, Does not the Bible admit of various In<g ref="char:EOLhyphen"/>terpretations? Whence of neceſſity ſome Judge is to be aſſigned to determin which is the true Inter<g ref="char:EOLhyphen"/>pretation, unleſs your Inclinations be to wrangle to all Eternity.</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> To the firſt of theſe profound Interroga<g ref="char:EOLhyphen"/>tions, I Anſwer thus; That if <hi>Cranmer</hi> entred by
+<pb n="7" facs="tcp:44074:4"/>the <hi>Parliament Door,</hi> 'tis a <hi>Door</hi> at which you, who<g ref="char:EOLhyphen"/>ever you are, would be glad to enter too, provided you could get in, without firſt passing the <hi>Gate of the Scriptures, which you ſhut up againſt men, for ye neither go in yourselves, neither ſuffer ye them that are entring to go in.</hi> For your ſaying, That <hi>Scripture is the old Song of Hereticks and Secretaries,</hi> &amp;c. I know not whether it betrays more ignorance or profane<g ref="char:EOLhyphen"/>neſs. The Scriptures (if they muſt be ſo called) were the <hi>Old Song</hi> of the Good Old Fathers of the Church; and the Old Song of the <hi>Old Hereticks</hi> and <hi>Sectaries</hi> was <hi>Tradition, Tradition, unwritten Tradition,</hi> the taking up of which Song, is that that gives you ſome Title to Antiquity.</p>
+            <p>To your Second Interrogatiory, I Anſwer, That if by <hi>admitting various Interpretations,</hi> you mean, that the words of the Bible are not ſo plain as to exclude all poſſibility of various Interpretations, and perveting them to a wrong ſence, 'tis then a very idle Demand, <hi>Whether the Bible does not admit of various Interpretations?</hi> For I defie your Judge whom you ſpeak of preſently after, be he <hi>Man</hi> or <hi>Men,</hi> to put words ſo together, that it ſhall be im<g ref="char:EOLhyphen"/>poſſible to pervert them to a wrong meaning. But if you mean, that upon a fair Conſtruction of the Words of the Bible, they <hi>admit various Interpreta<g ref="char:EOLhyphen"/>tions:</hi> I Anſwer, That in ſome places they do, and in others they do not admit more than one, which is therefore undoubtedly the true one. But for you conſequence, that <hi>of neceſſity ſome Judge is to be aſſigned,</hi> &amp;c. I beg your pardon that I do not ſee it, unleſs of neceſſity Men muſt be either ſo wanton and quarrelſom as to <hi>wrangle to all eternity</hi> about the meaning of words which may be diverſly expound<g ref="char:EOLhyphen"/>ed without any harm done; or ſo perverſe, as to
+<pb n="8" facs="tcp:44074:5"/>cavil at a Text which has but one plain meaning. If you find yourſelves given this way, you indeed ought to have a Judge <hi>aſſigned</hi> for you, and more than One. You ſhould have one Judge aſſigned whoſe conſtant buſineſs it ſhould be to determin the true Interpretation of all other Scriptures, but thoſe that ſpeak of him, to keep you from <hi>wrangling</hi> about them: And you would need another Extraordinary Judge to <hi>aſſign</hi> the Ordinary Judge, from thoſe Texts that mention him, and a Third to aſſign the Second; and ſo on, till you come to a Judge for whoſe Credit you muſt take his own Word, that ye may not <hi>wrangle</hi> about a Judge <hi>to all Eternity.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>6</label> 
+               <hi>Quer.</hi> 
+               <q>To theſe Queries I have often deſired an Anſwer, but never yet met with any.</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> Why, that was hard indeed; but I muſt tell you, that theſe Queries, tho' they were Prin<g ref="char:EOLhyphen"/>ted, yet went abroad ſo privately, as if they were more affraid, than <hi>deſirous</hi> to <hi>meet</hi> with an <hi>Anſwer.</hi> Whether you ever met with an Anſwer, I cannot ſay; perhaps you have not, and, it may be, you will never own that you have. But let us go on.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>7</label> 
+               <hi>Quer.</hi> 
+               <q>If you pretend (as many do) that <hi>Cran<g ref="char:EOLhyphen"/>mer</hi> and his Aſſociates derived their Holy Orders from <hi>Chriſt</hi> and his <hi>Apoſtles</hi> by the Hands of <hi>Ro<g ref="char:EOLhyphen"/>man Catholick</hi> Biſhops, it follows inevitably that <hi>Roman Catholick</hi> Biſhops did alſo receive their Or<g ref="char:EOLhyphen"/>ders from <hi>Chriſt</hi> and his <hi>Apoſtles,</hi> and conſequently are therefore to be heard. By this Anſwer, the <hi>Proteſtants</hi> ſeem to me to deſtroy their own Cauſe.</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> If they deſtroy their own Cauſe, you are to give them thanks; for 'tis more than their Ene<g ref="char:EOLhyphen"/>mies can do. But I do not ſee how this Anſwer de<g ref="char:EOLhyphen"/>ſtroys it; for if thoſe whom you call <hi>Roman Catho<g ref="char:EOLhyphen"/>lick</hi> Biſhops can give good Orders, then were the
+<pb n="9" facs="tcp:44074:5"/>Orders of <hi>Cranmer and his Aſſociates</hi> good. It is enough for us, that they had their Orders from Biſhops: And as we contend that their Orders were never the better, ſo we willingly grant that they were never the worſe for being conferred by thoſe whom you muſt needs ſtyle <hi>Roman Catholick</hi> Bi<g ref="char:EOLhyphen"/>ſhops. Well; but you ſay, <hi>If we pretend to derive our Holy Orders from Chriſt and his Apoſtles, by the hands of Roman Catholick Biſhops, it follows inevi<g ref="char:EOLhyphen"/>tably that theſe alſo did receive their Orders from Chriſt and his Apoſtles.</hi> So that though our <hi>Orders</hi> are never the worſe from coming through their hands, yet the <hi>Roman Catholick</hi> Biſhops themſelves are in a better caſe for our granting it; ſince their Orders muſt therefore by our Confeſſion be from <hi>Chriſt</hi> and his <hi>Apoſtles.</hi> Very well; and if your Doctrine be true, it will, I think, be found that <hi>Judas</hi> received his <hi>Orders</hi> from Chriſt too, when Chriſt ſaid to him and to the reſt, <hi>Hoc Facite.</hi> Perhaps you will ſay, that thoſe were not Biſhops Orders. To go on with you therefore; What follows from <hi>Roman Catholick Biſhops,</hi> having recei<g ref="char:EOLhyphen"/>ved their <hi>Orders</hi> from <hi>Chriſt?</hi> Why therefore <hi>they are true Biſhops, and to be heard.</hi> Undoubtedly; But what then? Therefore <hi>Proteſtants ſeem to deſtroy their own Cauſe.</hi> This is ſo much out of the Com<g ref="char:EOLhyphen"/>mon Rode of Reaſoning, that ſurely you have ſome <hi>Logick</hi> by yourſelf, which the World yet never ſaw; and therefore you would do very well to let us have it, if ever it ſhould come into your head to <hi>Query</hi> again. Not to have <hi>heard</hi> you, had been un<g ref="char:EOLhyphen"/>reaſonable, I confeſs, and this, whether your Bi<g ref="char:EOLhyphen"/>ſhops were <hi>True</hi> or not. But we have heard them over and over, and this, although they have ſaid the ſame thing, over and over again. You may alſo
+<pb n="10" facs="tcp:44074:6"/>perceive that I have <hi>read</hi> (which may ſerve inſtead of <hi>hearing</hi>) yourſelf too, whom I fancy to be no Biſhop; and this I aſſure you not without ſome tryal of my own Patience, to read ſuch rambling and unedifying things as you have here brought to<g ref="char:EOLhyphen"/>gether.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>8</label> 
+               <hi>Quer.</hi> 
+               <q>But you will ſay perhaps, that <hi>Roman Catholick</hi> Biſhops did receive their Orders, not their Doctrine, from <hi>Chriſt</hi> and his <hi>Apoſtles.</hi> Very good: I would fain know then, by whoſe Autho<g ref="char:EOLhyphen"/>rity the Firſt Reformers roſe up againſt the Do<g ref="char:EOLhyphen"/>ctrine of the Church of <hi>Rome;</hi> Unty this Knot, or Confeſs that <hi>Cranmer, Luther, Calvin, Soci<g ref="char:EOLhyphen"/>nis,</hi> &amp;c. made themſelves <hi>Judges, Witneſſes,</hi> and <hi>Accuſers.</hi>
+               </q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> Here again we are at a loſs for want of your private Logick; for why <hi>Judges, Witneſſes</hi> and <hi>Accuſers</hi> ſhould come in here, no Man alive, it may be, knows but yourſelf, and perhaps not you neither. To ſo much as I underſtand, I am content to An<g ref="char:EOLhyphen"/>ſwer. True Biſhops then may Preach Falſe Do<g ref="char:EOLhyphen"/>ctrine, and againſt your Biſhops we have terrible Evidence; that thoſe Doctrins of theirs which we reject, are ſo far from being received from <hi>Chriſt,</hi> that many of them are contrary to what we <hi>have received from him.</hi> Now every Chriſtian not only may, but ought to reject ſuch Doctrins, and that by the ſame Authority which requires every one to <hi>prove all things, and to hold faſt that which is good.</hi> And much more may Biſhops, and other Spiritual Guids, <hi>riſe up againſt them.</hi> Nay, by their Orders and Station in the Church, they have not only Au<g ref="char:EOLhyphen"/>thority ſo to do, but it will be ſeverely required of them if they do it not. I know not what ayl'd you to tye an inviſible <hi>Knot,</hi> and then to bid us <hi>unty</hi> it.
+<pb n="11" facs="tcp:44074:6"/>As for <hi>Socinus,</hi> we are no more bound to Anſwer for his (or any other Mans) Errors, becauſe he holds many Truths with us againſt you, than we are bound to anſwer for yours, becauſe we hold ſome Truths with you againſt him.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>9</label> 
+               <hi>Quer.</hi> 
+               <q>But more Common Anſwer is, That every National Church may Reform itſelf. Be it ſo: Then it follows, <hi>Scotland</hi> may Reform itſelf to <hi>Calviniſm, Saxony</hi> to <hi>Lutheraniſm,</hi> &amp;c.</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> And ſo you leave us to gather the reſt in this manner, <hi>but</hi> Scotland <hi>ought not to reform to</hi> Calviniſm, Saxony <hi>to</hi> Lutheraniſm, <hi>and therefore a National Church may not reform itſelf.</hi> Which is as much as to ſay, That becauſe the National Churches which reformed themſelves, did not all of them agree in every Point of Doctrine and Di<g ref="char:EOLhyphen"/>ſcipline with one another, therefore they ought not to have reformed the moſt manifeſt Abuſes notorious Errors, in the taking a way of which they all agreed. If you intended to inſinuate that we Confeſs ſome defects in this or that National Church, ſince they reformed, your Argument is juſt ſuch another as this, Becauſe the National Churches in reforming themſelves, did not do every good thing which they might, therefore they ought not to have done the Good which they did. You may, Sir, obſerve if you pleaſe, that the Au<g ref="char:EOLhyphen"/>thority of any National Church to reform itſelf, does not imply it to be an Indifferent thing, how ſhe proceeds in doing it. Nor does it follow, that becauſe 'tis poſſible for a National Church to uſe Authority in this Matter, better or worſe, there<g ref="char:EOLhyphen"/>fore ſhe has no Authority at all in it. If you are Ignorant of theſe things, you do well to make <hi>Queries</hi> upon them, but it ſhould have been done
+<pb n="12" facs="tcp:44074:7"/>modeſtly, and without pretending to diſpute of things in which you are ſo very unskilful.</p>
+            <p>
+               <hi>Quer.</hi> 
+               <q>Moreover 'tis falſe, that the Change of Religion was made here in <hi>England,</hi> by Vote of the National Church or Clergy of <hi>England.</hi> No, no, but by the giddineſs of a Few, during the Minority of <hi>Edward</hi> VI. being then a Child of Ten years old. Read the Annals of thoſe Times (even <hi>Fox</hi> himſelf) where 'tis evident that almoſt all the <hi>Engliſh</hi> Biſhops (<hi>Cranmer</hi> and two or three more excepted) were utterly againſt the pretended Reformation.</q>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>10</label> 
+               <hi>Anſw.</hi> If the Reformation were not a Pretended only, but a Real Reformation, and if all the Engliſh Biſhops <hi>almoſt</hi> were againſt it, the more to blame they, but the Reformation was not the leſs neceſſary. Truth is to be followed with a Few, if they are but Few that follow it; but <hi>thou ſhalt not follow a Mul<g ref="char:EOLhyphen"/>titude to do evil.</hi> It is better to be in the right with a Young King, though he be but a <hi>Child,</hi> than to be in the wrong with an Old Pope. But for what you ſay, That the Change of Religion in <hi>Eng<g ref="char:EOLhyphen"/>land</hi> was made by the <hi>Giddineſs of a Few,</hi> 'tis noto<g ref="char:EOLhyphen"/>riouſly Falſe, for they were but few in Compariſon that oppoſed it; and it was ſo generally received that Fire and Faggot in the next Reign was not able to deſtroy it.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>11</label> 
+               <hi>Quer.</hi> 
+               <q>Yet let us ſuppoſe, but not grant Reli<g ref="char:EOLhyphen"/>gion to have been Reformed here, by the major part of the <hi>Engliſh</hi> Clergy: I underſtand not how it may be lawful for the <hi>Church</hi> of <hi>England,</hi> being in Actual Communion with the <hi>Catholick Church,</hi> to ſeparate itſelf from the reſt of the Body.</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> She has not ſeparated herſelf from the reſt of the Body, though ſhe has not now for ſome time
+<pb n="13" facs="tcp:44074:7"/>been in <hi>Actual Conjunction</hi> with one part of it, and that the moſt corrupted part of all the Reſt; the true Reaſon whereof is, that you will have no Com<g ref="char:EOLhyphen"/>munion with us, but we muſt pay for it at the price of our Souls. If to reform our ſelves, be to ſeparate from your Church, look you to that, who have it ſeems made both theſe things to be in effect the ſame thing, by your hating to be Reformed. We for our parts are amazed, that Men who talk ſo much for Unity of Communion, will not do that for the ſake of Unity, which ought to be done, though Diſcord and Separation would certainly follow upon it.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>12</label> 
+               <q>
+                  <hi>Quer.</hi> If you ſay, this was not done by Fault of the <hi>Engliſh</hi> Church, but of the Church of <hi>Rome,</hi> ob<g ref="char:EOLhyphen"/>truding on the World her Errors and Corrupti<g ref="char:EOLhyphen"/>ons: I anſwer in ſhort, That all <hi>Hereticks</hi> (them<g ref="char:EOLhyphen"/>ſelves being Judges) will eſcape Condemnation. And father, let the Reader take notice, that all <hi>Presbyterians</hi> are wont to urge this very Inſtance in their own defence againſt the Church <hi>Eng<g ref="char:EOLhyphen"/>land,</hi> to wit, that they have left only the Errors and Corruption of the <hi>Engliſh</hi> Church.</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> If you ſay, this was not done by Fault of the <hi>Roman</hi> Church, but of the Church of <hi>England,</hi> refuſing to ſubmit to the Supreme Paſtor, and re<g ref="char:EOLhyphen"/>jecting the Catholick Faith: I anſwer in ſhort, That All <hi>
+                  <g ref="char:V">Ʋ</g>ſurpers</hi> and <hi>Deceivers</hi> (themſelves being Judges) will eſcape Condemnation. And farther, let the Reader take notice, that though this Plea of forſaking the Errors of a Church, lies in the middle to be taken up by every one that ſeparates from a Church, yet one may take it up with very good reaſon againſt one Church, while another lays hold on it, without any juſt cauſe for ſo doing againſt
+<pb n="14" facs="tcp:44074:8"/>another Church. Nor ought it to be eſteemed any prejudice againſt uſing ſuch a Plea, when there is <hi>Cauſe</hi> for it, that others may uſing when there is none. For otherwiſe 'tis impoſſible that the Inno<g ref="char:EOLhyphen"/>cent ſhould ever make a good Plea for themſelves, ſince they that are guilty may, if they can but ſpeak, take the ſame Words into their Mouths. When the two Apoſtles ſaid to the Council, <hi>Whether it be right in the ſight of God to hearken anto you more than unto God, judge ye,</hi> they might have been told, that this was no more than what every Deceiver might ſay. And yet I ſuppoſe you will not deny, but the Plea in their Mouths, was a very juſt and ſufficient Plea.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>13</label> 
+               <hi>Quer.</hi> 
+               <q>Whether the true Service of God had been corrupted throughout the whole World be<g ref="char:EOLhyphen"/>fore <hi>Cranmer</hi>'s Riſe; If not, tell me in what Pro<g ref="char:EOLhyphen"/>vince of the Earth did exiſt? Whether among the <hi>Waldenſes?</hi> But I am ignorant from whence <hi>Peter Waldo,</hi> the Merchant of <hi>Lyons</hi> received his Miſſion. Nor do I know whether his Sacraments are approved by the Church of <hi>England.</hi>
+               </q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> The <hi>whole World</hi> is a very wide place, and the <hi>Query</hi> is a very Impertinent <hi>Query;</hi> For whe<g ref="char:EOLhyphen"/>ther the <hi>true Service of God bad been corrupted through<g ref="char:EOLhyphen"/>out the whole World before</hi> Cramner's <hi>Riſe, or not;</hi> one thing we are ſure of, that it was moſt vilely corrupted here, and therefore that there was cry<g ref="char:EOLhyphen"/>ing need to have it Reformed. But if you long to have a more poſitive Anſwer to the Queſtion, firſt go and learn that every Corruption in the Service of God does not deſtroy the <hi>Truth,</hi> though it leſſens the <hi>Purity</hi> of it, and that every <hi>Defect</hi> does not deſerve to be called a <hi>Corruption;</hi> that as to this Matter ſome Churches were better, and others
+<pb n="15" facs="tcp:44074:8"/>worſe, none I doubt perfect, but that there was one worſt of all, ſo very bad that <hi>Peter Waldo</hi> needed not anny Miſſion to declare againſt the Corruptions of it. Learn theſe things as you ought to do, a<g ref="char:EOLhyphen"/>gainſt the next time, and, if you intend to go on in this way, then you ſhall hear farther from me. Concerning the Sacraments which the Church of <hi>England</hi> appears, I have told you my mind once already.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>14</label> 
+               <hi>Quer.</hi> 
+               <q>Whether at this day there be no Pure and Apoſtolical Service of God in the World, ex<g ref="char:EOLhyphen"/>cept that eſtablished by Law in <hi>England</hi> and <hi>Ire<g ref="char:EOLhyphen"/>alnd?</hi> Whether it be lawful for the People of <hi>England</hi> to invent a Church to themſelves, divided from all the reſt of the Chriſtian World? By what Authority do they cenſure the Sacraments and Rites of the <hi>Roman</hi> Church?</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> For an Anſwer to the firſt part of the <hi>Query,</hi> I ſend you back but to the laſt <hi>Query</hi> of all, where you may find it. As to the ſecond, I ſay 'tis not lawful for the <hi>people</hi> of <hi>England,</hi> or for any other People to <hi>invent a Church,</hi> by which you mean, I ſhould think, to invent a New Religion, New Doctrins, Worſhips and Governments. But what came into your Head to ask this Queſtion, I am not able to imagin, ſince <hi>our people</hi> have <hi>Invent<g ref="char:EOLhyphen"/>ed no New Church,</hi> but only retrieved the <hi>Old:</hi> Whilſt you all people have been the beſt at this Invention, and by Inventing a New Creed, and New Objects of Worſhip, and New Sacraments, and a New Head of the Catholick Church, have effectually <hi>divided</hi> yourſelves <hi>from all the reſt of the Chriſtian World,</hi> that ſtick to the Old Religion, and will have none of your Inventions. 2. I muſt ac<g ref="char:EOLhyphen"/>quaint you, that the two former Branches of this
+<pb n="16" facs="tcp:44074:9"/>
+               <hi>Query</hi> ſeem to me to make up a kind of Nonſence between them, for in the firſt you ſuppoſe that we pretend to have a <hi>pure Apoſtolical Service</hi> amongſt: us, and in the ſecond, that we muſt needs grant our Church to be one of our own <hi>Invention.</hi> Now we might take it ill to have Queſtions put upon us, as if we were ſuch <hi>Ninnies,</hi> as to pretend to an Apo<g ref="char:EOLhyphen"/>ſtolical Service, and yet to grant that we our ſelves were the Inventors of it. 3. Take all together, and the moſt I can make is this, that you lay great weight upon your Preſumption, that by our Service we ſtand divided from the reſt of the <hi>Chriſtian</hi> World: which I have already told you is notori<g ref="char:EOLhyphen"/>ouſly falſe. But for your better Inſtructions, I ſhall add, that if indeed we only had a <hi>Pure</hi> and <hi>Apo<g ref="char:EOLhyphen"/>ſtolical</hi> Service, and yet upon the account of our Service, no other Chriſtians would Communicate with us; the reſt of the Chriſtian World ought to be aſhamed of it, but we not at all. By the run of your <hi>Queries,</hi> you ſeem to be ignorant of one of the plaineſt things in the World, which therefore I do again commend to your Conſideration, <hi>viz.</hi> that <hi>Truth</hi> is the ſame, and changes not, whether they be many or few that profeſs it; and that our Religion ſtands not in a multitude of Pretenders, but in a Holy Doctrin, and a Holy Practice, which all ought to follow, even when the moſt do not. As for the third Branch of this <hi>Query, By what Au<g ref="char:EOLhyphen"/>thority,</hi> &amp;c? it comes in as if you could never ask it often enough: But if I have not given you a ſufficient Anſwer, pray do you try to give a better, if you can, to this. <hi>By what Authority do you cen<g ref="char:EOLhyphen"/>ſure the Sacraments and Rites of the Engliſh Church?</hi>
+            </p>
+            <pb n="17" facs="tcp:44074:9"/>
+            <p> 
+               <hi>Quer.</hi> 
+               <q>Whether <hi>Cranmer</hi> was the firſt Arch-Biſhop of the Church of <hi>England?</hi> The reaſon of my doubt is this, becauſe Archbiſhips of Canter<g ref="char:EOLhyphen"/>bury, for nine preceeding Ages were all Roman Catholicks? If he was the firſt, he wanted <hi>Epiſco<g ref="char:EOLhyphen"/>pal Succeſſion,</hi> becauſe being the firſt of his Sect he ſucceeded to none. Then how could he be a law<g ref="char:EOLhyphen"/>ful Paſtor, who had neither Succeſſion, Miſſion, nor Miracles to recommend his New Doctrin? I ſay <hi>New,</hi> and ſtrange at that time, and for many Ages before.</q>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>15</label> 
+               <hi>Anſw.</hi> He that affirms there were <hi>Roman Catho<g ref="char:EOLhyphen"/>lick Archbiſhops</hi> of <hi>Canterbury,</hi> for Nine Ages before <hi>Cranmer,</hi> and yet makes a doubt whether <hi>Cranmer</hi> were the <hi>firſt</hi> Archbiſhop of <hi>Canterbury</hi> or not, ſhall doubt on for me. If indeed <hi>Cranmer</hi> was the firſt Archbiſhop of <hi>Canterbury</hi> then, as you ſay, he wanted <hi>Epiſcopal Succeſſion</hi> (in the See of <hi>Canterbury</hi>) that is, he had no Biſhops that were his Predeceſſors in that See, becauſe he was the firſt; and I am very glad, that you don't doubt of that too: And yet I think there is as much reaſon to doubt of that, as of the other. But then you are come to an end of the firſt doubt preſently, for now you do not doubt but <hi>Cranmer</hi> was the <hi>firſt</hi> Archbiſhop, (tho' there were Archbiſhops for Nine Ages before him) and <hi>wanted Epiſcopal Succeſſion.</hi> I ſuppoſe you do not care to ſtand doubting long upon a Matter; But in the name of ſence how can this be? Why, <hi>Becauſe being the firſt of his Sect he ſucceeded none.</hi> Notably ſpoken! and all is now as plain as can be. Be<g ref="char:EOLhyphen"/>cauſe <hi>Cranmer</hi> was the Firſt of his <hi>Sect</hi> in the See of <hi>Canterbury:</hi> Therefore he was alſo the Firſt of his <hi>Order,</hi> for if there were no Archbiſhop of his Sect before him, without all doubt there were no Archbi<g ref="char:EOLhyphen"/>ſhops
+<pb n="18" facs="tcp:44074:10"/>before him at all: And yet there were too, there<g ref="char:EOLhyphen"/>fore I begin to doubt this will prove but a bad buſi<g ref="char:EOLhyphen"/>neſs at laſt. However, Sir, I give you many thanks for your Argument, ſuch as it is; for the diſtincti<g ref="char:EOLhyphen"/>on which it proceeds upon, we have been tugging for this hundred and fifty years, and you at laſt have very civilly yielded it to us. For in plain <hi>Eng<g ref="char:EOLhyphen"/>liſh</hi> you would prove that <hi>Cranmer</hi> wanted <hi>Epiſco<g ref="char:EOLhyphen"/>pal Succeſſion,</hi> becauſe he wanted <hi>Doctrinal Succeſſion,</hi> he was, ſay you, the <hi>Firſt of his Sect,</hi> and therefore <hi>he ſucceeded to none:</hi> And again, <hi>How could he be a lawful Paſtor, who had neither Succeſſion,</hi> &amp;c. <hi>to re<g ref="char:EOLhyphen"/>commend his New Doctrin.</hi> Now tho' I can by no means grant that want of <hi>Doctrinal</hi> Succeſſion, im<g ref="char:EOLhyphen"/>plies the want of <hi>Epiſcopal</hi> Succeſſion, nor will you neither, when you have taken ſomething to clear your Brain; yet I do very thankfully acknowledge that to make a <hi>Good</hi> Paſtor, there ought not to be an <hi>Epiſcopal</hi> Succeſſion only, but a <hi>Doctrinal</hi> Suc<g ref="char:EOLhyphen"/>ceſſion alſo. Now <hi>Cranmer,</hi> we ſay, received his Orders from the Biſhops of his Age, and his Epiſ<g ref="char:EOLhyphen"/>copal Succeſſion from his immediate Predeceſſor in the See of <hi>Canterbury,</hi> and ſo upward. Thus far now we are very well. But then for his <hi>Doctrin,</hi> for which you would make him the <hi>Firſt of his Sect,</hi> he took a far better courſe than, as you would have had him, to receive it for good, and all from his immediate Predeceſſors, for it was poſſible, and up<g ref="char:EOLhyphen"/>on trial he found it certainly true, that his Prede<g ref="char:EOLhyphen"/>ceſſors had made a failure in Succeſſon of Doctrin, and innovated againſt the Antient Faith and Wor<g ref="char:EOLhyphen"/>ſhip of the <hi>Chriſtian</hi> Church. He therefore went to the Records of the Primitive Church, and to the Scriptures which are the moſt Antient of all, and the only Infallible Rule of Faith; by which he
+<pb n="19" facs="tcp:44074:10"/>found, and ſo may you (if you have Grace to do it) that ſome of thoſe Biſhops, whom you ſpeak of, that went before him had miſerably failed of carrying on the Succeſſion of True Doctrin. Now I will be content in this Matter to make you the Judge, that if they are not <hi>lawful Paſtors,</hi> who want ſucceſſion of Doctrin, whether the unlawful ones be thoſe who broke the Succeſſion of it at firſt, or thoſe that reſtored it afterwards. And becauſe I will not tye you too ſeverely to your own words, I will abate the word <hi>lawful,</hi> and ſuffer you to put <hi>Good</hi> Paſtors inſtead of it. For I think that Orders and Regularity of Epiſcopal Succeſſion, will ſuf<g ref="char:EOLhyphen"/>fice to make them <hi>lawful</hi> Biſhops, who for corrupt<g ref="char:EOLhyphen"/>ing the Doctrin of the Church, ſhall not be allow<g ref="char:EOLhyphen"/>ed to be <hi>Good</hi> ones. I have one word more to ſay, and then you ſhall ſpeak. You have heard, I per<g ref="char:EOLhyphen"/>ceive, from ſome of your Friends, that the Arch<g ref="char:EOLhyphen"/>biſhops of <hi>Canterbury</hi> for <hi>Nine</hi> Ages before <hi>Cranmer,</hi> were <hi>Roman Chtholicks.</hi> Now their meaning was that <hi>all</hi> the Archbiſhops of <hi>Canterbury,</hi> even from the time of <hi>Gregory</hi> the Great, that ſent <hi>Auſtin</hi> hi<g ref="char:EOLhyphen"/>ther were juſt ſuch believers as thoſe whom you now call <hi>Roman Catholicks:</hi> But tho' you know not theſe Matters, and, it may be, not they neither, yet I can aſſure you, that very many of your Doctrins and Practices are not only different from, but con<g ref="char:EOLhyphen"/>trary to what was believed, and done in Pope <hi>Gre<g ref="char:EOLhyphen"/>gories</hi> days; which you ſhall find made out very clearly to your hands, in the <hi>Vindication of the Anſwer to ſome late Paper,</hi> p. 72. <hi>&amp;c.</hi> So that there has been ſad tampering with Chriſtianity ſince his time, and when firſt the Archbiſhops of <hi>Canterbury</hi> be<g ref="char:EOLhyphen"/>came your <hi>Roman Catholicks,</hi> they themſelves inter<g ref="char:EOLhyphen"/>rupted the Succeſſion of Primitive and Antient Do<g ref="char:EOLhyphen"/>ctrin.
+<pb n="20" facs="tcp:44074:11"/>Take good notice of the place I refer you to, in that excellent Book now mentioned, and if you improve by it, as you ought, I may direct you here<g ref="char:EOLhyphen"/>after where to find that the Corrupt Doctrins of your Church were of a much later date, than for you to talk as you do of Nine Ages before <hi>Cranmer.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>16</label> 
+               <hi>Quer.</hi> 
+               <q>Whether that be a True Church that wants Lawful Paſtors? And whether Paſtors not Lawful and True, can be ſaid to have true Sacra<g ref="char:EOLhyphen"/>ments? If not, then is it not better to Communi<g ref="char:EOLhyphen"/>cate under <hi>One Kind</hi> with <hi>Catholicks,</hi> than under <hi>No Kind</hi> with <hi>Reformers?</hi>
+               </q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> But if we have Lawful and True Paſtors, as, for any thing that you have hitherto ſaid, nay that you or any of your Party can ſay, we are ſure that we have; then this Query comes in too ſoon: And therefore at preſent the Question ſtands thus; Whether it is not better to Communicate under <hi>Both kinds</hi> with the <hi>Real</hi> Catholicks, than under <hi>One Kind</hi> only, with the <hi>Pretended</hi> Ones? But if you think fit to Renew the <hi>Query,</hi> I would adviſe you to Mend it a little againſt the next time; and not by any means to queſtion the Validity of our Sacraments ſo crudely as you do, for you will find that your own Church does not preſume to Baptize thoſe over again, which go from us to you: And it were not amiſs if you would tell us more diſtinctly, what you mean by Lawful Paſtors; whether you oppoſe them only to ſuch of the Validity, of whoſe Orders we have no good aſſurance; or who alſo came into their Cures by Simony, or who are Schiſ<g ref="char:EOLhyphen"/>matical Paſtors, and the like, for theſe can hardly be ſaid to be Lawful Paſtors. Make your <hi>Query</hi> plain, and I have a plain <hi>Anſwer</hi> for you, which perhaps you little think of.</p>
+            <pb n="21" facs="tcp:44074:11"/>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>17</label> 
+               <hi>Quer.</hi> 
+               <q>Whether the XXXIX Articles of the Church of <hi>England</hi> be <hi>Articles of Faith,</hi> yea or no? If not, then no body is bound to believe them under pain of Damnation. If they be, then hath the Church of <hi>England</hi> invented New <hi>Articles</hi> of <hi>Faith</hi> beſides thoſe XII inſtituted by Chriſt and his Apoſtles.</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> In Return to this Query, I ſhall deal as plainly with you as you could wiſh. Many of the Articles of the Church of <hi>England,</hi> are Doctrins oppoſed to the Errors and Innovations, which your Church holds for Articles of Faith. Now, as to theſe Doctrins, we <hi>do not</hi> Eſteem them in the ſame rank with the Articles of Faith, becauſe they are not at all times neceſſary to be propounded to all in order to their Salvation; but they are neceſſary to be taught the Faithful in theſe Parts of <hi>Chriſten<g ref="char:EOLhyphen"/>dom,</hi> to ſecure them from the Contagion of thoſe Errors you have brought into the Church. For inſtance, if you had not ſet up the Doctrine and Practice of <hi>Praying to the Saints,</hi> there had been no need at all of a Determination of this Church a<g ref="char:EOLhyphen"/>gainſt it; nor had it been neceſſary to inſtruct our People, that the Saints are not to be Prayed unto. Had not Your Church invented the Article of <hi>Tran<g ref="char:EOLhyphen"/>ſubſtantiation,</hi> Ours had not oppoſed a contrary Ar<g ref="char:EOLhyphen"/>ticle to it. Now as to the Doctrine of theſe and the like Articles of our Church, we do not ſay, that it is in itſelf Neceſſary, but only Profitable. But it is neceſſary for us to Teach it, becauſe, as you have ordered Matters, to be Ignorant thereof is very Dangerous, the contrary Errors being Damnable. For you are ſtrangely miſtaken, if you think that no Error is damnable, but the direct denial of ſome Truth which is always neceſſary to be propounded
+<pb n="22" facs="tcp:44074:12"/>to all, that is of an <hi>Article of Faith</hi> ſtrictly and properly ſo called. And I can aſſure you, that the beſt Divines of your own Church are of another mind. There is therefore no room left for your Second Suppoſition, That <hi>if they be Articles of Faith, then hath the Church of</hi> England <hi>invented New Arti<g ref="char:EOLhyphen"/>cles of Faith,</hi> &amp;c. But I wonder not a little at the boldneſs of your Inference, while with no better colour for it, you would draw us in to be ſuſpected of that which yourſelves are ſo notoriouſly guilty of, <hi>i. e.</hi> of making <hi>New Articles of Faith.</hi> For had not you done ſo, we ſhould have had no occaſion to Oppoſe your Inventions ſo vigorouſly as we have done, nor you any colour to Inſinuate as if we had added to the Creed. I would fain know of you, that if Falſe Doctrins which do not directly con<g ref="char:EOLhyphen"/>tradict the Articles of the Creed, ſhould be thruſt into the Creed by one part of the Church, whether another ſhould be afraid to contradict them, for fear of being accuſed of adding the contrary Propo<g ref="char:EOLhyphen"/>ſitions to the Creed too; though it be evident that they do it not, but only take care to keep the Old Faith pure from <hi>New Doctrines,</hi> and the Minds of the Faithful uncorrupted with Falſe Doctrines? If you ſhould think fit to ſay ſo, I muſt then ask you, Whether Ten Thouſand Fooliſh and Falſe, nay and Dangerous Opinions, might not by ſome or others be tack'd to the Ancient Creeds, and yet the reſt of the Chriſtian World ſhould not dare to determine preciſely againſt them. And yet I muſt tell you, That if you have not capacity enough to diſtinguiſh between <hi>rejecting Errors</hi> on the one ſide, and adding to the Articles of the Creed on the other, I have a Queſtion to offer you, which will go near to ſpoil your Query, and this it is. If you
+<pb n="23" facs="tcp:44074:12"/>will needs call our <hi>Articles,</hi> Additions to the <hi>Common Articles</hi> of the Chriſtian Faith; whether it be not ſomewhat worſe to add <hi>notorious</hi> and <hi>dangerous Er<g ref="char:EOLhyphen"/>rors</hi> to the Creed, than to add <hi>plain</hi> and <hi>profitable,</hi> and as the caſe may be, <hi>neceſſary Truths</hi> to it?</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>18</label> 
+               <hi>Quer.</hi> 
+               <q>Whether the Reformed Religion may not be divided and ſub-divided into Endleſs Reforma<g ref="char:EOLhyphen"/>tions.</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> The <hi>Turks</hi> have taken much notice of the Diviſions of <hi>Chriſtians.</hi> Do you therefore go and Anſwer a Turk putting this Query; <hi>Whether the</hi> Chriſtian <hi>Religion may not be divided and ſub-divi<g ref="char:EOLhyphen"/>ded into Endleſs Religions?</hi> And then I will Anſwer this wiſe Query of yours, if you be not from that time able to Anſwer it yourſelf. But if you ſhould have but little concern for <hi>Chriſtianity,</hi> yet ſurely you have a great deal for <hi>Popery.</hi> Therefore I ex<g ref="char:EOLhyphen"/>pect your Anſwer to this other Query; <hi>Whether the Sence of the Council of Trent may not be divided and ſub-divided into endleſs Expoſitions and Repreſentations?</hi> Tell me this, and I alſo will tell you, <hi>whether the Reformed Religion,</hi> &amp;c.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>19</label> 
+               <hi>Quer.</hi> 
+               <q>Whether in the matter of the Euchariſt, the Argument drawn from our Senſes, be not fal<g ref="char:EOLhyphen"/>lible? The Reaſon of this Queſtion, is, becauſe the Serpents deceiv'd our firſt Parents, by per<g ref="char:EOLhyphen"/>ſuading them to believe their own Eyes, rather than the Word of God. As that, <hi>they ſhould eat of the Tree of Knowledge, becauſe it was fair to the Eye.</hi> Now if Mankind ſhould be ſo deceived by their <hi>Sight,</hi> Pray whence ſhould their other Senſes deſerve more Credit?</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> And was not the Fruit of that Tree <hi>fair to the Eye?</hi> How then did their Sight deceive our Firſt Parents? Would any one that had but read
+<pb n="24" facs="tcp:44074:13"/>
+               <hi>Gen.</hi> 3.4, 5. ſay that <hi>the Serpent deceiv'd our Firſt Parents, by perſuading them to believe their own Eyes?</hi> Be ſo juſt to yourſelf, as to believe your own for once, and read the words, <hi>And the Serpent ſaid unto the Woman, Ye ſhall not ſurely die, For God doth know, that in the day that ye eat thereof, then your Eyes ſhall be opened; and ye ſhall be as Gods, knowing Good and Evil.</hi> Now I take this to be a perſuading them to <hi>believe</hi> ſomething which they did not <hi>ſee,</hi> and not (as you ſay) to <hi>believe their own Eyes.</hi> And their Credulity as to this <hi>unſeen</hi> Effect, was that which prevailed with them to their ruin. Remember therefore, if you pleaſe, that our Firſt Parents were deceiv'd, by giving an eaſie aſſent to a confident Boaſter, and bold Promiſer of Super<g ref="char:EOLhyphen"/>natural Effects, and from expecting more from ſuch Aſſurances, than what they could have been led to by the moſt full Information of their Senſes: Remember this, I ſay, and then apply it to the Euchariſt, as you ſhall ſee convenient. Read the Text again, and then tell me why you ſay that the Serpent deceiv'd them by <hi>perſuading them to believe their own Eyes, rather than the Word of God?</hi> and why you give this Inſtance of it, as if it were his Ar<g ref="char:EOLhyphen"/>gument: <hi>That they ſhould eat of the tree of know<g ref="char:EOLhyphen"/>ledge, Becauſe it was fair to the eye?</hi> The truth is, the Serpent ſet up his own glorious Promiſes againſt the Threatnings of the Almighty; and in this we know he has been well imitated. And if he had not wrought more upon them by their Hopes and Credulity, than by Evidence of Senſe (for tho' they ſaw that the Fruit was <hi>pleaſant to the Eyes,</hi> we have no reaſon to think they would have taſted it, had they not been deluded with the Expecta<g ref="char:EOLhyphen"/>tion of being as Gods) his Attemps of deceiving
+<pb n="25" facs="tcp:44074:13"/>might have been as vain as yours are in this <hi>Query.</hi>
+            </p>
+            <p>
+               <hi>Quer.</hi> 
+               <q>Whether the Church of <hi>England</hi> be not Changeable, according to the various Inclinations of <hi>Engliſh Parliaments.</hi>
+               </q>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>20</label> 
+               <hi>Anſw.</hi> Changeable? as how I pray? for this one word <hi>Changeable,</hi> ſplits the <hi>Query</hi> into I know not how many <hi>Queries,</hi> unleſs you had told us <hi>as to what</hi> the Church of <hi>England</hi> may or may not be Changed, according to the Will of <hi>Engliſh Parlia<g ref="char:EOLhyphen"/>ments.</hi> For Inſtance, the Church of <hi>England,</hi> is at preſent the <hi>Church Eſtabliſhed by Law,</hi> and if you ask whether the Church of <hi>England,</hi> with reſpect to Legal Eſtabliſhment, <hi>be not Changeable, according to the various Inclinations of Engliſh Parliaments,</hi> inclu<g ref="char:EOLhyphen"/>ding, as I hope you do, the Pleaſure of the Sove<g ref="char:EOLhyphen"/>reign, then without all doubt <hi>Engliſh Parliaments</hi> may Change the Church of <hi>England,</hi> but we hope they will not do it. But if by Changing the Church of <hi>England,</hi> you mean, that Parliaments can make the Religion profeſſed by the Church of <hi>England,</hi> to become a Falſe Religion, when their Inclinations are once varied from us, then I tell you, that the Church of <hi>England</hi> is not <hi>Changeable</hi> by <hi>Engliſh Par<g ref="char:EOLhyphen"/>liaments,</hi> nor by all the Powers upon Earth: For this Matter is fixed to their hands, and can never be unfixed to the end of the World. And I do wil<g ref="char:EOLhyphen"/>lingly acknowledge, that the Religion of the Church of <hi>Rome</hi> is in this reſpect every whit as Unchangea<g ref="char:EOLhyphen"/>ble as Ours; that is to ſay, that Part of it which contradicts Ours, is Falſe to day, and all the Parlia<g ref="char:EOLhyphen"/>ments in the World cannot make it. True to mor<g ref="char:EOLhyphen"/>row. If this Anſwer ſhould offend you, I pray do not blame me, but thank yourſelf for put<g ref="char:EOLhyphen"/>ting the Query, which no doubt pleaſed you very
+<pb n="26" facs="tcp:44074:14"/>much. But the Anſwer, let me tell you, is a good one. We of this Church depend upon King and Parliament for the <hi>Legal Eſtabliſhment</hi> of our Re<g ref="char:EOLhyphen"/>ligion, but not for the <hi>Truth</hi> of it; the former there<g ref="char:EOLhyphen"/>fore is Changeable, becauſe Men are ſo; but the latter is not ſo, becauſe God Changeth not. Thus we <hi>render unto Caeſar the things that are Caeſar's, and unto God the things that are Gods.</hi> And it were well, if you would do ſo too.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>21</label> 
+               <hi>Quer.</hi> 
+               <q>Whether the Spirit of <hi>Calvin</hi> denying, and that of <hi>Luther</hi> affirming, a Corporal Preſence of <hi>Chriſt</hi> in the Sacrament, be the ſame Spirit? If not, then both cannot be of God.</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> This again is ſo ambiguous and deceitful, that one would think you had learn'd to frame your <hi>Queries,</hi> after the pattern of the Famous <hi>Apollo's Anſwers.</hi> Here therefore I muſt fall to Diſtinguiſh<g ref="char:EOLhyphen"/>ing as faſt as I can, and Anſwer as warily, as if ſome great Matter depended upon it. In the firſt place then, I well remember, that this word <hi>Spi<g ref="char:EOLhyphen"/>rit</hi> ſometimes ſignifies <hi>Doctrin,</hi> and if the meaning of the Queſtion be, whether <hi>Calvin's</hi> Doctrin <hi>againſt,</hi> and <hi>Luther's for a Corporal Preſence,</hi> be the ſame? I Anſwer poſitively and reſolutely, that they are <hi>not the ſame;</hi> and finally I grant, that thoſe Two contrary Doctrins <hi>cannot both be of God.</hi> Secondly, By this word <hi>Spirit,</hi> we do ſometimes underſtand the Diſpoſition and Temper of a Man's Mind; and then if the meaning of the Query be, whether <hi>Calvin</hi> and <hi>Luther,</hi> one of whom denied, and the other main<g ref="char:EOLhyphen"/>tained a <hi>Corporal Preſence</hi> of Chriſt, <hi>&amp;c.</hi> whether I ſay both theſe Men were for all this endued with the ſame qualities that make up the Character of a <hi>good</hi> Man, whether they had the ſame Spirit of Sincerity, and Piety, and Charity, and the like; then according
+<pb n="27" facs="tcp:44074:14"/>to this Notion, I Anſwer, That I verily believe they bad both the <hi>ſame Spirit,</hi> notwithſtanding that dif<g ref="char:EOLhyphen"/>ference, and conſequently, that the Spirit of the one as well as of the other, was of God. Thirdly and Laſtly, This word <hi>Spirit</hi> is ſometimes uſed to ſigni<g ref="char:EOLhyphen"/>fie a Perſuaſion concerning ſome Doctrin, proceed<g ref="char:EOLhyphen"/>ing from the immediate Inſpiration whether of the Good or the Evil Spirit. And if the Queſtion goes upon this meaning, 'tis an Impertinent Queſtion; for <hi>Luther</hi> and <hi>Calvin</hi> did not pretend to teach Doctrine from Immediate Imſpiration, but to Prove their Doctrine by the Scriptures. But if you only meant to make ſome advantage to yourſelf from theſe two Mens diſagreeing in a Matter which we muſt con<g ref="char:EOLhyphen"/>feſs to be of Moment; I only deſire you to turn the Tables, and to Anſwer theſe Queries: Whether the Spirit of the <hi>Jeſuites,</hi> who ſay that the Pope is above a General Council, and the Spirit of the <hi>Sorbon,</hi> utterly denying it, be <hi>the ſame</hi> Spirit? Whether the Spirit of <hi>Thomas Aquinas,</hi> affirming that the ſame Honour is to be given to the Image, that is due to the Perſon repreſented by it, or the Spirit of the Biſhop of <hi>Meaux,</hi> denying it, be <hi>the ſame</hi> Spirit? And not to be tedious, Whether the Spirit of <hi>Innocent</hi> III. and his <hi>Lateran</hi> Council, and of I know not how many more Popes, and of Cardinal <hi>Perron,</hi> and many more Cardinals, affirming that <hi>Heretical</hi> Kings may and ought to be Depoſed, and the Spirit of our Engliſh Repreſenter and thoſe for whom he undertakes, who all deny it, <hi>be the ſame Spirit. If not, then both cannot be of God.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>22</label> 
+               <hi>Quer.</hi> 
+               <q>Was not <hi>John Calvin</hi> a moſt impudent Creature, in aſſuming to himſelf the Office of <hi>Reforming</hi> the <hi>World,</hi> being but a Young Man of Twenty five or Twenty ſix years of Age, and
+<pb n="28" facs="tcp:44074:15"/>without all pretence of Miracles, a thing which <hi>Chriſt</hi> himſelf undertook not under Thirty years of Age?</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> I think indeed <hi>Geneva</hi> may paſs for the <hi>World,</hi> by the ſame Figure that the Church of <hi>Rome</hi> goes for the <hi>Catholick</hi> Church. When the World groans for a Reformation, I do not ſee where lies the <hi>Impudence</hi> of trying, by good Doctrine and Ex<g ref="char:EOLhyphen"/>ample, to Reform that Part of it where one lives, unleſs it lies in being Impudently and Bravely Good, which is ſometimes neceſſary to give a check to Impudence in that which is Bad. If he be a Young Man that takes this upon himſelf, he is the more to be commended: And if he can fairly carry the Reformation beyond his own Countrey, this is ſtill more commendable; and if he could Reform the whole World, then I ſay, for that which you call <hi>Impudence,</hi> Generations to come ought to riſe up to his Name, and call it <hi>Bleſſed.</hi> You ought not, I tell you to deſpiſe <hi>John Calvin</hi>'s Youth, as one of your Great Ones did <hi>Luther</hi>'s Meanneſs, who hear<g ref="char:EOLhyphen"/>ing the <hi>Auſpurg</hi> Confeſſion read, ſaid to his Confi<g ref="char:EOLhyphen"/>dent, That theſe things indeed were True, but it was not to be endured that a pitiful <hi>Monk</hi> ſhould Reform the World. But if nothing elſe will ſatisfie you, but it muſt be Impudence in a Young Man to think of Reforming the place where he lives, yet at leaſt do not repreſent him as a <hi>moſt impudent Crea<g ref="char:EOLhyphen"/>ture;</hi> for, as I take it, there are a long row of Popes from <hi>Formoſus</hi> downwards, who, if your own Hi<g ref="char:EOLhyphen"/>ſtorians are to be credited, ſhall compare with <hi>John Calvin</hi> in this point, not of <hi>Reforming the World,</hi> but the other, and ſhall get the better of him by much. And amongſt theſe, there is one <hi>John</hi> XI. Son to <hi>Sergius</hi> III. one of his Predeceſſors, who was ſome<g ref="char:EOLhyphen"/>thing
+<pb n="29" facs="tcp:44074:15"/>leſs modeſt than <hi>John Calvin,</hi> in as, much as being yet but a Boy, he took upon himſelf to be Head of the Catholick Church, which our <hi>John,</hi> I dare ſay, would never have accepted any time of his life. Indeed, the young Pope was thus far to be excuſed, that he was put into the Chair by <hi>Merocia,</hi> who though ſhe was not <hi>Sergius</hi>'s Wife, was yet <hi>John</hi>'s Mother. For <hi>Donna Olympia</hi> was not the firſt of her Quality, that ſwayed all at <hi>Rome.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>23</label> 
+               <hi>Quer.</hi> 
+               <q>Whether from the Womb of the <hi>Refor<g ref="char:EOLhyphen"/>mation</hi> have not iſſued all thoſe Slaughters, Rapines, Tumults, Plundering of Churches, Schiſms and Civil Wars, which broke out in the year 1641.</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> No truly, for ſince the Reformation, the Church of <hi>England</hi> hath lent neither <hi>Principles,</hi> nor Examples, nor Counſels, nor Arms, nor Men, nor Money to carry on Rebellions or Rapines. The World ſaw that ſhe ſtuck by her Royal Maſter to to the laſt; And if you ſay, that it was her Intereſt to do ſo then, I hope you will grant that ſhe has at other times given Proof of a higher Principle; Nor can you without rubbing your Forehead queſtion the ſtrictneſs of her Loyalty, who begin (ſome of you) to laugh at her for it. I hope you will not ſay that the <hi>Iriſh</hi> Rebellion, which broke the ice for all, thoſe <hi>Slaughters, Rapines,</hi> &amp;c. which you men<g ref="char:EOLhyphen"/>tion, to come after it; that that <hi>iſſued</hi> too <hi>from the womb of the Reformation.</hi> I think this <hi>Query</hi> had better reſt, leaſt when the Mother of that Off-ſpring is agreed upon, we ſhould be tempted to inquire who was the Father of it.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>24</label> 
+               <hi>Quer.</hi> 
+               <q>Whether <hi>Africa</hi> produces more variety of <hi>Monſters,</hi> than <hi>Britain</hi> does <hi>Fanaticks,</hi> where
+<pb n="30" facs="tcp:44074:16"/>every Man may read and interpret the Scriptures according to his own Judgment of Diſcretion.</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> I know pretty well what Fanaticks <hi>Bri<g ref="char:EOLhyphen"/>tain</hi> has produced, but what variety of Monſters <hi>Africa</hi> produces, I cannot well ſay; the ſureſt way to be ſatisfied, is to go thither your ſelf, for Authors are not agreed. But if by <hi>Fanaticks</hi> you mean <hi>Falſe pretenders to Inſpiration,</hi> you may take your compariſon nearer home, where 'tis as much as a Mans or Womans life is worth to have the Scriptures to read. In ſhort, <hi>Britain</hi> has Fanaticks, but the <hi>Britiſh</hi> Church does what ſhe can to reclaim them, which ſhe thinks ought nor to be tried by ſetting up an <hi>Inquiſition</hi> for ſome of 'em, and cannot be done by making Saints of others of 'em. You un<g ref="char:EOLhyphen"/>derſtand, I ſuppoſe, and therefore go on.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>25</label> 
+               <hi>Quer.</hi> 
+               <q>Whether Queen <hi>Elizabeth</hi> born of <hi>Ann Bolen,</hi> Queen <hi>Catharine</hi> yet living, can be thought Legitimate?</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> Without all Queſtion <hi>ſhe can be thought Legitimate;</hi> for I find that I think ſo, and I know many who ſay ſo, that do not uſe to ſay one thing and think another.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>26</label> 
+               <hi>Quer.</hi> 
+               <q>How admirable was the Wiſdom of <hi>Hen<g ref="char:EOLhyphen"/>ry</hi> the Eighth by expelling one Pope of <hi>Rome,</hi> to raiſe up infinite Popes of his own Subjects.</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> Not very <hi>admirable,</hi> I confeſs, if it were ſo; for we had even too much of <hi>One Pope of Rome</hi> before, as the Complaints, and the Laws of our Anceſtors can well witneſs. But how did he raiſe up <hi>infinite Popes of his own Subjects?</hi> Were there ſo many Heads of the Catholick Church raiſed by him in his own Dominions? Or did every Body think himſelf Infallible, when once they depended upon his Holineſs no longer? When you deſign a witty
+<pb n="31" facs="tcp:44074:16"/>
+               <hi>Query,</hi> take care, whilſt you live, that there be ſome Sence, and a little Truth at the bottom, and in one Word, that it be not like this, which is a meer Bub<g ref="char:EOLhyphen"/>ble, and turns to nothing.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>27</label> 
+               <hi>Quer.</hi> 
+               <q>By whoſe Authority did he Divorce his Virtuous Wife Queen <hi>Catharine?</hi> His own or a Foreign? If by his own, why may not other Kings alſo put away their Wives at their pleaſure? If <hi>Mary</hi> his Daughter by Queen <hi>Catharine</hi> was Legi<g ref="char:EOLhyphen"/>mate Heireſs of the Kingdom, then <hi>Elizabeth</hi> was not, becauſe it was not lawful for King <hi>Henry</hi> to have two Wives at once.</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> I doubt not but Queen <hi>Catharine</hi> was a <hi>Vertuous Wife;</hi> but under favour, ſince you will needs be medling with theſe Matters, you ſhould have put your Queſtion either with more honeſty, or with more skill; and inſtead of asking, <hi>By whoſe Authority he divorced his Virtuous Wife,</hi> you ſhould have asked by what Authority he divorced his <hi>Brothers Wife.</hi> For there lay the point; and here I muſt tell you, that after that Queſtion, whe<g ref="char:EOLhyphen"/>ther the Pope had Power to diſpenſe with that Marriage, had been debated and determined in the Negative by the moſt famous Univerſities of <hi>Eu<g ref="char:EOLhyphen"/>rope;</hi> for you an unskilful Queriſt to ask by what Authority the King did, as he did, ſhews that you have ſpent your time to little purpoſe, and are to be admoniſhed to beſtow it better for the future. As for your other difficulty, how <hi>Mary</hi> and <hi>Eliza<g ref="char:EOLhyphen"/>beth</hi> could be both Legitimate: I Anſwer, that the Legitimacy of <hi>Elizabeth</hi> is plain, ſuppoſing the Marriage of Queen <hi>Catharine</hi> to King <hi>Henry</hi> to be void; but yet <hi>Mary</hi> the Child of that Marriage was not Illegitimate, becauſe the Marriage was made without Fraud. But if one or other of them
+<pb n="30" facs="tcp:44074:17"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="31" facs="tcp:44074:17"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="32" facs="tcp:44074:18"/>muſt neceſſarily be Illegitimate, pray look you to the conſequence, who, I ſuppoſe, apprehend ſome great Matter, to depend upon this Diſpute. For my own part, theſe kind of <hi>Queries</hi> ſeem to be very impertinent, for if Queen <hi>Mary</hi> was <hi>Illegitimate,</hi> our Religion is not one jot the truer for it, and if ſhe was <hi>Legitimate,</hi> neither is it the worſe. But there is a time to anſwer Queſtions that are none of the wiſeſt.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>28</label> 
+               <hi>Quer.</hi> 
+               <q>If that Religion be Sacred that is eſtabliſh<g ref="char:EOLhyphen"/>ed by Law, why did Queen <hi>Elizabeth</hi> deſtroy the <hi>Catholick Religion</hi> Eſtabliſhed by ſo many Acts of Parliament?</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> It ſeems then that what you call the <hi>Ca<g ref="char:EOLhyphen"/>tholick Religion</hi> may <hi>be deſtroyed.</hi> And yet theſe <hi>Queries</hi> are <hi>publiſh'd with Allowance.</hi> Your Supe<g ref="char:EOLhyphen"/>riors ſurely can inſtruct you, that to deſtroy the Legal Eſtabliſhment of a Religion is one thing, and to deſtroy the Religion is another. But they ſaw that if you had expreſſed the former, the <hi>Query</hi> had looked ſo ridiculouſly, that it had been a ſhame to let it go. For all the Sacredneſs that Human Law can give to a Religion, is a legal <hi>Sacredneſs,</hi> and no more, or if you pleaſe, a legal <hi>Eſtabliſhment.</hi> And ſo this is the Engliſh of your <hi>Quaere. If that Reli<g ref="char:EOLhyphen"/>gion has a legal Eſtabliſhment, that's eſtabliſhed by Law, why did the Queen deſtroy the legal Eſtabliſh<g ref="char:EOLhyphen"/>ment of the Catholick Religion, which was of eſtalibſhed by ſo many Laws?</hi> In my opinion it had been much better to Query thus like a plain man; <hi>If the Catho<g ref="char:EOLhyphen"/>lick Religion was eſtabliſhed by ſo many Laws, why did Queen</hi> Elizabeth <hi>uneſtabliſh it by Law again.</hi> And now having brought your <hi>Query</hi> to this Form: I Anſwer, that yours is not the <hi>Catholick</hi> Religion, and it was pity that it ſhould have that Sacredneſs
+<pb n="33" facs="tcp:44074:18"/>which the Law gave it, becauſe it had no Sacred<g ref="char:EOLhyphen"/>neſs of its own to deſerve it; and therefore it was a very good Law that took away the other Sacred<g ref="char:EOLhyphen"/>neſs from it. If you think this Anſwer not to be full enough, you may pick out ſomerhing more in <hi>Anſw.</hi> to <hi>Sect.</hi> 20. whither I refer you.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>29</label> 
+               <hi>Quer.</hi> 
+               <q>Queen <hi>Elizabeth</hi> expelled fourteen Catho<g ref="char:EOLhyphen"/>lick Biſhops from their Sees, for refuſing the Oath of <hi>Supremacy.</hi> But how could they ſwear her to be Head or Supreme Governor of the Church, when they could not ſwear ſhe was Head of this Kingdom?</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> I think truly <hi>Fourteen</hi> Biſhops were de<g ref="char:EOLhyphen"/>prived in the beginning of Queen <hi>Elizabeth</hi>'s Reign, and that for not taking the Oath of Supremacy. But take this along with you too, that moſt of theſe Biſhops, if not All, had taken the very ſame Oath before, and ſome of 'em aſſiſted at the framing of it. So that one would think, that their refuſing to take the ſame Oath under <hi>Elizabeth,</hi> was as much as to deny her to be <hi>Head of the Kingdom,</hi> as you ſay; which all modeſt Men muſt grant to have been a ſufficient cauſe for their Deprivation. But yet as tender as Princes are of their Titles, it is to be remembred to her immortal Credit, that ſhe did not ſerve them as her Predeceſſor did <hi>Cranmer, Latimer, Ridley</hi> and <hi>Hooper,</hi> but uſed them in all other reſpects with great gentleneſs. What their true reaſons were for refuſing the Oath of Supremacy, I ſhall not go about to Divine. But as for you, who will needs have it to be this, in part at leaſt; that they could not ſwear ſhe was <hi>Head of the Kingdom:</hi> Thus far you are to be commended, that you have choſen a more modeſt expreſſion of your Malice, than that impudent Writer did, who told
+<pb n="34" facs="tcp:44074:19"/>us the other day, that ſhe was a <hi>known Baſtard.</hi> But in the Calumny, I perceive, you are both a<g ref="char:EOLhyphen"/>greed: And heark ye, Gentlemen, I do in behalf of the dead Queen, and of that Age, which univer<g ref="char:EOLhyphen"/>ſally acknowledge her Title, defie you both to make good your teproach, and fix the Title of <hi>Ca<g ref="char:EOLhyphen"/>lumniators</hi> upon you both, if you neither can juſti<g ref="char:EOLhyphen"/>fie it, nor will publickly retract it.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>30</label> 
+               <hi>Quer.</hi> 
+               <q>Did not <hi>Cranmer,</hi> and his <hi>Reforming Aſ<g ref="char:EOLhyphen"/>ſociates</hi> ſteal their <hi>Liturgy</hi> out of the <hi>Roman Miſſal, Ritual</hi> and <hi>Breviary.</hi>
+               </q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> Or rather did not you <hi>ſteal</hi> this <hi>Query</hi> from the Diſſenters? Sure I am, that hitherto it has been theirs, ſaving only the rudeneſs of the expreſſion, which you have added to it. Go to them, and they can furniſh you with an abundant Anſwer to this terrible Objection. But if ſomething muſt be ſaid here; our Liturgy, if it muſt be <hi>ſtolen,</hi> looks as if it were ſtolen not out of your <hi>Roman,</hi> but the Old <hi>Gallican Miſſal,</hi> which once was ours, and there<g ref="char:EOLhyphen"/>fore it was not ſtolen, but now every Body has his own again. But if we had taken your <hi>Roman Miſ<g ref="char:EOLhyphen"/>ſal, Ritual</hi> and <hi>Breviary</hi> only, and compiled our Li<g ref="char:EOLhyphen"/>turgy out of them, yet we took nothing of your pe<g ref="char:EOLhyphen"/>culiar Goods from them, but only what every part of the <hi>Catholick</hi> Church has as much right to, as your ſelves; and as for that which is peculiarly and properly your own there, we have left it entirely to you, and much good may it do you.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>31</label> 
+               <hi>Quer.</hi> 
+               <q>Are not <hi>Proteſtants</hi> bound by their <hi>Dath de Supremacy</hi> to obey the King as Supreme Governor, as well in all ſpiritual or Eccleſiaſtical Things or Cauſes, as Temporal? What mean they by theſe words, <hi>As well in all Spiritual as Temporal Things or Cauſes,</hi> &amp;c. But that Proteſtants are ſworn to
+<pb n="35" facs="tcp:44074:19"/>yield to the King all manner of Obedience, both Civil and Religious? Are they not obliged there<g ref="char:EOLhyphen"/>fore according to the Oath to become <hi>Catholicks</hi> with a <hi>Catholick</hi> King, <hi>Calviniſts</hi> with a <hi>Calviniſt</hi> King, <hi>Arians</hi> with an <hi>Arian?</hi> I ſay, according to this Oath, becauſe the Kings Majeſty is the only Su<g ref="char:EOLhyphen"/>preme Governor, (under Chriſt) as well in all Spiritual as Temporal Cauſes: which words con<g ref="char:EOLhyphen"/>feſs in the King a Spiritual as well as Civil Juriſ<g ref="char:EOLhyphen"/>diction. But whence does his Spiritual Juriſdicti<g ref="char:EOLhyphen"/>on appear without the Power of the Keys?</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> You have been as often told, what we mean by theſe words, <hi>As well in all Spiritual as Temporal Things or Cauſes,</hi> as you have asked the Queſtion; but you would never take notice of the Anſwer, nor make any exception to it; and yet 'tis an even wager, that the next ſet of <hi>Queries,</hi> which you intend to aſtoniſh us with, brings this over again. But once more you are deſired to take notice of the meaning of our Church, where 'tis moſt plainly expreſſed, <hi>viz.</hi> in <hi>Artic.</hi> 37. Title, <hi>Of Civil Magiſtrates. The Kings Majeſty hath the chief Power in the Realm of</hi> England, <hi>and other his Domi<g ref="char:EOLhyphen"/>nions, unto whom the chief Government of all Eſtates of the Realm, whether they be Eccleſiaſtical or Ci<g ref="char:EOLhyphen"/>vil in all Cauſes doth appertain, and is not, nor ought to be ſubject to any foreign Juriſdiction. Where we attribute to the King's Majeſty the chief Government, by which Titles we underſtand the Minds of ſome ſtan<g ref="char:EOLhyphen"/>derous folks to be offended, we give not to our Princes the miniſtring either of Gods Word, or of the Sacra<g ref="char:EOLhyphen"/>ments, the which thing the Injunctions ſet forth by</hi> Elizabeth <hi>our Queen, do moſt plainly teſtiſie, but that only Prerogative which we ſee to have been given always to all Godly Princes in Holy Scripture by God</hi>
+               <pb n="36" facs="tcp:44074:20"/>
+               <hi>himſelf, that is, that they ſhould Rule all Eſtates and Degrees committed to their charge by God, whether they be Eccleſiaſtical or Temporal, and reſtrain with the Civil Sword the ſtubborn and Evil Doers.</hi> You ſee then our Church acknowledges the King to be Supreme Governor in all Cauſes, and over all Perſons Eccleſiaſtical, <hi>viz.</hi> that no Quality in the Church, nor cauſe of the Church exempts a Sub<g ref="char:EOLhyphen"/>ject from the Secular Laws, and the Sword of Ju<g ref="char:EOLhyphen"/>ſtice; which may be very true, as it undoubtedly is, and yet <hi>all manner of Obedience</hi> in Religious Mat<g ref="char:EOLhyphen"/>ters ſhall not preſently become due to the King. For when Sovereigns require their Subjects to do things contrary to true Religion, if their Subjects give but one <hi>manner of Obedience</hi> to their Laws, which goes with us under the name of <hi>Paſſive</hi> Obedience, it ſaves at once their acknowledgment of the So<g ref="char:EOLhyphen"/>vereigns Supremacy over them, and Gods Supre<g ref="char:EOLhyphen"/>macy over All. So that we are not obliged by our Oath to <hi>become</hi> Calviniſts <hi>with a</hi> Calviniſt <hi>King,</hi> nor <hi>Arians</hi> with an <hi>Arian</hi> King, nor <hi>Roman Catholicks</hi> with ſuch a <hi>King;</hi> nor, in a word, to be of the Kings Religion, but to ſubmit to his Authority, let his Religion be what it will. In ſhort, let the Perſons or the Cauſes be what they will, out Church acknow<g ref="char:EOLhyphen"/>ledgeth the King to be Supreme Governor in his Dominions, he only having the <hi>Civil Sword.</hi> But now as for you, that make the Pope the Head of the Catholick Church, and Union to him neceſ<g ref="char:EOLhyphen"/>ſary to your being a Member of it, who laugh at us for that dependence which our Eccleſiaſticks have upon the King, and depend in effect for all the benefits of Chriſtianity, upon your Eccleſiaſti<g ref="char:EOLhyphen"/>cal Union to the Pope, which is ſomething more than the Article recognizes of our Sovereigns; you,
+<pb n="37" facs="tcp:44074:20"/>I ſay, would do well to tell us how you can avoid being <hi>Arians</hi> with a Pope <hi>Liberius,</hi> or <hi>Monothelites</hi> with a Pope <hi>Honorius,</hi> or No Image-Worſhippers with a Pope <hi>Gregory</hi> I. or Image-Worſhippers with a Pope <hi>Adrian</hi> I.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>32</label> 
+               <hi>Quer.</hi> 
+               <q>You will ſay, the King is to be Obeyed, ſo far as we may by the Laws of God, and the Kingdom. Be it ſo, then it follows, that the King is not Supreme Governor under Chriſt, but the Laws of God and the Kingdom.</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> To this ſilly Stuff, I oppoſe a little plain Senſe. That the Laws of the Kingdom are not to be oppoſed to the Supremacy of the King, whoſe Laws they are. That the King is our Supreme Go<g ref="char:EOLhyphen"/>vernor under God, but that we know of no Supreme Governor that is to be Obeyed abſolutely, without any Limitation whatſoever, but God himſelf.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>33</label> 
+               <hi>Quer.</hi> 
+               <q>What if Controverſies riſe between the King and his Subjects about the True Senſe of <hi>Scripture,</hi> Who ſhall be Judge? The Private Spi<g ref="char:EOLhyphen"/>rit or not? Hence, If am not miſtaken, came the Riſe of our late <hi>Civil Wars.</hi>
+               </q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> I dare ſay you are the firſt that ever found out the want of a Judge betwixt King and People, to be <hi>the Riſe of the late Civil Wars.</hi> 'Tis pity the Obſervation ſhould be loſt, for 'tis a notable one, and would mend the Hiſtory of thoſe Times not a little. But pray who ſhould that Judge be, <hi>to de<g ref="char:EOLhyphen"/>termine the True Senſe of Scripture between the King and his Subjects?</hi> The Pope without doubt. And ſo we are gotten into the old Circle again. For if they muſt take the Judgement of the Pope at a ven<g ref="char:EOLhyphen"/>ture, then any Man may be agreed upon to be the Judge, and he will ſerve the turn as well as the Pope: But if God has made the Pope Judge, that
+<pb n="38" facs="tcp:44074:21"/>indeed is another caſe. But how ſhall we know it? By the Scripture? Who then muſt be Judge of the True Senſe of Scripture, with reference to the Que<g ref="char:EOLhyphen"/>ſtion? The Pope ſays 'tis a plain caſe on his ſide. But it may be, neither the King ſays it, nor his Sub<g ref="char:EOLhyphen"/>jects. Who therefore muſt be the Judge between the King and the Pope, or between his Subjects and the Pope? Not <hi>the private Spirit,</hi> for the World, for thence come <hi>Wars.</hi> So that the Pope muſt be Judge, becauſe the Scripture ſays ſo, and the Scripture ſays ſo, becauſe the Pope muſt Judge. Now if inſtead of <hi>Pope</hi> you put in <hi>Council,</hi> you will find the Circle go as round with one, as t'other. Nor do I ſee how you can avoid it, but by running out into the long line, of a Judge upon a Judge, without end, which I gave you ſome warning of before. To Conclude, When you have tired yourſelves with theſe frivolous Expedients for the Ending of Controverſies, do what you can, you will find it beſt to come to that which you diſgrace under the Name of a <hi>Private Spirit;</hi> the Good uſe whereof is that which muſt do the buſineſs. Men muſt be Honeſt, and hearken to Inſtruction, and love Truth, and remember that the Day of Judg<g ref="char:EOLhyphen"/>ment is coming: This you cannot deny to be the Duty of All. And if you and every Body elſe could be brought to it, then about plain Things there would be no Controverſie at all; and thoſe about Points that are indeed difficult, might do a great deal of Good, but would be ſure to do no Hurt at all, either to the Church, or to the World.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>34</label> 
+               <hi>Quer.</hi> 
+               <q>Why did ſo many Noble Men under <hi>Ed<g ref="char:EOLhyphen"/>ward</hi> VI. and Queen <hi>Elizabeth,</hi> ſo readily Embrace the Reformation? Was't for Conſcience ſake, or the Lucre Church-Lands?</q>
+            </p>
+            <pb n="39" facs="tcp:44074:21"/>
+            <p> 
+               <hi>Anſw.</hi> The Noblemen under thoſe Princes, were generally for Wiſdom, Fortitude and Manners, a Glory to their Age and Nation: But now they are dead and gone, and it will be time enough to know the Secret into which you are inquiſitive, when the Day of Judgment comes; and till then I can be con<g ref="char:EOLhyphen"/>tentedly Ignorant, whether it be for <hi>Conſcience ſake, or the Lucre of Church-Lands,</hi> that you wrote theſe <hi>Queries.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>35</label> 
+               <hi>Quer.</hi> 
+               <q>Why do <hi>Engliſhmen</hi> (ſo deſirous of <hi>Novel<g ref="char:EOLhyphen"/>ties</hi>) hate <hi>Popery?</hi> Perhaps becauſe <hi>Popery</hi> is no <hi>Novelty?</hi>
+               </q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> If you are an <hi>Engliſman,</hi> methinks 'tis no good ſign of the Religion you are of, that it has inſpir'd you with the ſcorn and hatred of your own Countrymen to that degree, as to ſpend a reproach upon them, which all the World ſees there is not the leaſt appearance of Cauſe for. Friend, you took no little care to hedge in this Abuſe, when you were fain to turn Anſwerer to your own Query, to com<g ref="char:EOLhyphen"/>paſs it to your mind. But as your Anger had been leſs, ſo your Wit had been more, to have let alone both Queſtion and Anſwer, for there is that in them to clear us from your Reproach. You ſay we <hi>hate Popery, becauſe 'tis no Novelty:</hi> And yet neither we, nor our Fathers, nor our Grandfathers, have profeſſed or practiſed Popery, and therefore in ſpite of your heart, Popery muſt be a <hi>Novelty</hi> to <hi>us;</hi> who conſequently, if we may be Judged of by this Inſtance, are not ſo <hi>deſirous of Novelties.</hi> But if you had given us leave to Anſwer your Queſtion, Why we are <hi>not in love with Popery?</hi> I ſhould have Anſwer'd to this purpoſe, That it is not ſo far a <hi>Novelty</hi> neither, but tho' we are Strangers to the Profeſſion of it, yet we have ſo true an <hi>Idea</hi> of the
+<pb n="40" facs="tcp:44074:22"/>Doctrines and Practices of your Church, that your<g ref="char:EOLhyphen"/>ſelves are not able to deceive us into another.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>36</label> 
+               <hi>Quer.</hi> 
+               <q>The Church of <hi>England</hi> is either Fallible or Infallible; it Fallible (as is confeſt by all) then is ſhe not ſounded upon a Rock, becauſe ſhe may deceive and be deceived.</q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> After all the exquiſite Diſcourſes that have been publiſhed upon this Subject: It is — (what ſhall I call it?) to think that ſuch a pitiful Argument as this, is worth a Thought. Try, if you pleaſe, this knotty piece of work upon your own dear ſelf, for no other Anſwer you ſhall have from me. <hi>You,</hi> Sir, <hi>are either Fallible or Infallible; if Fallible (as I humbly conceive you are) then you are not founded upon a Rock, becauſe you may deceive and be deceived.</hi> But this Argument thus turned upon yourſelf, is, now I look upon it again, a monſtrous dull one I confeſs; and that for proving you not to be built upon a Rock, becauſe <hi>you may be deceived,</hi> when 'tis ſo notorious, that thou art all over actual<g ref="char:EOLhyphen"/>ly deceived, as thy lamentable Papet ſhews thee to be. There is indeed a little life in that other part of the Argument, that <hi>you may deceive,</hi> for perhaps that is not very much more than poſſible; ſo that I think this little pains I have taken, might have been ſpared, for I dare ſay there are very few whom You and your Queries will be able to deceive.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>37</label> 
+               <hi>Quer.</hi> 
+               <q>Whether Cardinal <hi>Wolſey</hi> did wiſely by Demoliſhing <hi>Monaſteries</hi> to Found <hi>Colleges?</hi> The reaſon of this doubt, is, becauſe the <hi>Tree</hi> of <hi>Know<g ref="char:EOLhyphen"/>ledge</hi> was not the <hi>Tree</hi> of <hi>Life.</hi>
+               </q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> So, ſo, <hi>Monaſteries</hi> were the <hi>Tree of Life,</hi> and Colleges are the <hi>Tree of Knowledge.</hi> Very neat and witty I promiſe you: Hence forward we ſhall not want a Text to prove that Ignorance is the
+<pb n="41" facs="tcp:44074:22"/>Mother of Devotion. If <hi>Eraſmus</hi> had not happened upon ſomething like this, in his <hi>Emcomium Moriae,</hi> by my conſent it ſhould have been written upon your Tomb-ſtone; Here lies the Author of this Query, <hi>Whether Cardinal Wolſey,</hi> &amp;c. But what have we to do with Cardinal <hi>Wolſey?</hi> Or rather, What have you to do to ſay any thing againſt him? Was it a ſmall matter for you to trample upon the Aſhes of <hi>Cranmer,</hi> that nothing will now ſerve you but to pirk over <hi>Wolſey</hi>'s too? I have taken your ſize, Sir, and muſt needs put you in mind, that in you 'tis want of Manners, almoſt to Talk of Arch<g ref="char:EOLhyphen"/>biſhops and Cardinals; when you but Think of ſuch Great Men as <hi>Wolſey</hi> and <hi>Cranmer,</hi> the one a Cadinal of the <hi>Roman</hi> Church, the other an Arch<g ref="char:EOLhyphen"/>biſhop of <hi>Canterbury,</hi> Men indeed of different Reli<g ref="char:EOLhyphen"/>gions, but both of extraordinary Abilities, as well as high Station: I ſay, when you but hear them, or ſuch as they mentioned, you ſhould preſently reflect upon your own little ſelf, and not dare to open your Mouth, till Perſons of much meaner Rank come into Diſcourſe.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>39</label> 
+               <hi>Quer.</hi> 
+               <q>Is there not wanting in the Church of <hi>England</hi> a more Correct Tranſlation of the <hi>Bible?</hi>
+               </q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> I warrant, you expect that I ſhould ſay <hi>I</hi> or <hi>No</hi> to this <hi>Query</hi> preſently. But in ſuch a caſe a wiſe and honeſt Man muſt have the putting of the Queſtion. In few words, I do by no means deny that the <hi>Engliſh</hi> Tranſlation can be more Correct than it is: After the exacteſt care, 'tis likely there will be ſome defect in ſo great a Work. But this we ſay, that we need not a better Tranſlation than it is, and in particular, that for the Skill and Fide<g ref="char:EOLhyphen"/>lity that is ſhewn in it, we will compare at any
+<pb n="42" facs="tcp:44074:23"/>time with the Vulgar <hi>Latin.</hi> And therefore where<g ref="char:EOLhyphen"/>as you add,</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Sect. </seg>39</label> 
+               <hi>Quer.</hi> 
+               <q>That many material Errors are found in our preſent <hi>Engliſh</hi> Bible, tending to <hi>Schiſm</hi> and Liberty of the <hi>Fleſh.</hi>
+               </q>
+            </p>
+            <p>
+               <hi>Anſw.</hi> I Anſwer, That you are very much <hi>mi<g ref="char:EOLhyphen"/>ſtaken</hi> to ſay ſo, which I will firſt ſhew againſt your Inſtances, and then leave the Reader to ſay what other Name your importunity in this place de<g ref="char:EOLhyphen"/>ſerves.</p>
+            <p>The Firſt Inſtance you refer to, is <hi>Gal.</hi> 5.17. <hi>For the Fleſh luſteth againſt the Spirit, and the Spirit againſt the Fleſh, and theſe are contrary one to the other, ſo that ye cannot do the things that ye would.</hi> Now I ſuppoſe the <hi>material Error</hi> in this Tranſla<g ref="char:EOLhyphen"/>tion, lies in theſe words, <hi>ſo that ye cannot do,</hi> which you would ſay ought to have been, <hi>ſo that ye do not.</hi>
+               <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> To this I Anſwer, That the words † will bear both Verſions, tho' I confeſs the latter ſeems to me to be more <hi>Grammatical.</hi> The Reaſon, I conceive, why our Tranſlators choſe the former, was, that the following Verſe ſeems to imply that in this Verſe the Apoſtle ſpeaks of thoſe that are <hi>led by the Fleſh;</hi> who in that ſtate cannot do the things which their Conſcience prompts them to. Now this I ſay is ſo far from being <hi>a material Error, tending to Liberty of the Fleſh,</hi> that 'tis no Error at all; unleſs St. <hi>Paul</hi> was miſtaken when he ſaid, <hi>The carnal mind is en<g ref="char:EOLhyphen"/>mity againſt God, for it is not ſubject to the Law of God, neither indeed can be. So then they that are in the Fleſh, cannot pleaſe God,</hi> Rom. 8.7, 8.</p>
+            <p>
+               <q>The next is, <hi>Dan.</hi> 4.24. where the Prophet ſpeaks thus to King <hi>Nebuchadnezzar; Quamobrem Rex conſilium meum placeat tibi, &amp; peccata tua Elecmoſynis redime &amp; Iniquitates tuas miſericordiis Pauperum.</hi>
+                  <pb n="43" facs="tcp:44074:23"/>Which Text the preſent <hi>Engliſh</hi> Tranſlation thus renders vitiouſly enough; <hi>Wherefore, O King, break off thy Sins by righteouſneſs, and thine Iniqui<g ref="char:EOLhyphen"/>ties by ſhewing Mercy to the Poor.</hi> Whereas it ought to have been tranſlated, <hi>Redeem thy Sins by Alms<g ref="char:EOLhyphen"/>deeds, and thine Iniquities by ſhewing Mercy to the Poor.</hi>
+               </q>
+            </p>
+            <p>But ſuppoſe it ſhould have been tranſlated <hi>Re<g ref="char:EOLhyphen"/>deem,</hi> rather than <hi>Break off;</hi> Where is the <hi>material Error?</hi> Where is the <hi>tendency to Schiſm, or liberty of the Fleſh?</hi> Surely if Righteouſneſs and Alms<g ref="char:EOLhyphen"/>deeds will Redeem <hi>Sins,</hi> they are not further from doing it, by <hi>Breaking them off.</hi> I ſhould rather think that our Tranſlation, if we conſider the difference, preſſes the neceſſity of Univerſal Reformation ſome<g ref="char:EOLhyphen"/>thing more than the other, becauſe it will not ſuffer a Man to fancy that he may keep ſome of his Sins now he knows how to redeem them, <hi>viz.</hi> by <hi>Alms<g ref="char:EOLhyphen"/>deeds, and ſhewing Mercy to the Poor;</hi> but teaches him that he has no other way to eſcape, but by breaking off his former ſins, and doing all the good things that are contrary to the evils he has done; which doubtleſs was the meaning of <hi>Daniel</hi>'s Ex<g ref="char:EOLhyphen"/>hortation. And now after all, it was pitifully done of you to Examine our Tranſlation by your Vulgar <hi>Latin,</hi> the Authority whereof in theſe Critical Diſ<g ref="char:EOLhyphen"/>putes, you know we deny. And it was done ac<g ref="char:EOLhyphen"/>cording to your Wiſdom too, for the truth of the Matter is, that our Tranſlation is right, and yours is wrong: for though the <hi>Caldee</hi> † word ſignifies to Redeem, when 'tis applied to Perſons,
+<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </note> as <hi>Pſal.</hi> 136.4. <hi>Thou haſt redeemed us;</hi> yet when Things are ſpoken of, it ſignifies to <hi>divide,</hi> or to <hi>break them off.</hi> So it is taken <hi>Gen</hi> 27.40. <hi>Thou ſhalt break his yoke from of thy neck.</hi> and Exod. 32.2, 24. and elſe<g ref="char:EOLhyphen"/>where
+<pb n="44" facs="tcp:44074:24"/>In a Word, The Vulgar Interpreter was ſo far from ſhewing his Skill here, that he blun<g ref="char:EOLhyphen"/>der'd manifeſtly; and it muſt be a very favourable Conſtruction of his Tranſlation, that can ſecure it from the Charge of Falſe Doctrine, <hi>viz.</hi> That a Man can Redeem himſelf from the Juſtice of God.</p>
+            <p>
+               <q>Again, You ſay, How are St. <hi>Paul</hi>'s Words to the <hi>Corinthians</hi> miſ-render'd, 1 <hi>Cor.</hi> 7.9. <hi>Quod ſi non ſe continent nubant. But if they cannot contain, let them marry;</hi> where this Word (<hi>cannot</hi>) not being found in the <hi>Greek,</hi> was deviſed in Favour of the Fleſh.</q>
+            </p>
+            <p>That is to ſay, in Favour of Marriage. Now this Objection does but ſhew your want of Skill, and the little honeſty of thoſe that helped you to it; for aſſure yourſelf, that although there is not a di<g ref="char:EOLhyphen"/>ſtinct Word in the Greek for <hi>cannot,</hi> yet the force of it is diſcernible enough to thoſe that underſtand theſe things,
+<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> in that <hi>one</hi> Greek † word, of which our Tranſlators made <hi>two</hi> Engliſh ones; and were obliged ſo to do, becauſe we have not <hi>one</hi> that ex<g ref="char:EOLhyphen"/>preſſes it ſufficiently. It ſignifies to <hi>have the Command or Power over ones ſelf,</hi> which your
+<note n="*" place="margin">Se continere.</note> Latine does better expreſs, than if we had rendred your Latine word for word; <hi>If they do not contain themſelves.</hi> For, <hi>not to contain,</hi> does in our Language and way of ſpeaking, fall ſhort even of the Latin Phraſe, and much more of the Greek, and therefore to make True Tranſlation, it was needful to ſay <hi>cannot con<g ref="char:EOLhyphen"/>tain.</hi> And if the Force of the Word did not lead your Maſters to this Conſtruction, yet at leaſt the ſcope of the place might have done it. For a very little conſideration had been ſufficient to have ſeen, that the Apoſtle did not mean to give this counſel of Marrying to thoſe only that had been guilty of
+<pb n="45" facs="tcp:44074:24"/>actual Incontinence, but to thoſe alſo that could not due their own deſires. And that he ſpeaks here, of a <hi>Power,</hi> that all have not, is evident alſo from <hi>verſ.</hi> 7. <hi>For I would that all men were even as I my ſelf; but every one hath his proper Gift of God, one after this manner, and another after that.</hi> The Truth is, if there be a defect in any part of our Tranſlati<g ref="char:EOLhyphen"/>on of theſe paſſages, 'tis in <hi>verſ.</hi> 5. where the Tranſlators put <hi>Incontinency</hi> to anſwer the <hi>Greek</hi> word,
+<note n="(a)" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> for as Dr. <hi>Hammond</hi> has obſerved the <hi>Engliſh</hi> there does not reach the Original, ſo well as the <hi>Engliſh</hi> [<hi>cannot contain</hi>] (which you have learn't to Cavil at) reaches it here. But now, Sir, Why muſt this word [<hi>cannot</hi>] be ſaid to <hi>be deviſed by us in favour of the Fleſh?</hi> For neither was it deviſed; nor, if it were, does the ſence which it gives the Place, provide chiefly for Marriage, but rather by that for the avoiding of heinous Sin, as any one, I think, might ſee, unleſs he believes <hi>Fornication</hi> to be more tolerable in ſorce people than <hi>Matrimony.</hi> The end of St. <hi>Paul</hi>'s counſel in this place, is viſibly the ſame with that of his advice, <hi>verſ.</hi> 5. for which he gives this Reaſon, <hi>That Satan tempt you not,</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, which I would thus Paraphraſe, <hi>By the unrulineſs of your deſires.</hi> Get your Maſters to do it better; but mark what I ſay, if this be well, as I am reaſonably aſſured it is; it will be in vain any longer to cavil at the Tranſlation of the place under debate. And now let us go on.</p>
+            <p>
+               <q>Likewiſe the words of <hi>Chriſt, Matth.</hi> 19.11. are corrupted in favour of the Fleſh, <hi>Non omnes capiunt verbum iſtud ſed quibus datum eſt.</hi> All men (<hi>cannot</hi>) receive this ſaying, but ſuch to whom it is given. It ought to be; All Men <hi>do not</hi> receive this ſaying.</q>
+            </p>
+            <pb n="46" facs="tcp:44074:25"/>
+            <p> But notwithſtanding your vulgar Latin, our Tranſlation is already, <hi>as it ought to be:</hi> For the Greek word
+<note n="(a)" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> Capax ſum.</note> does not only ſignifie to <hi>receive,</hi> but as frequently to be <hi>capable of receiving.</hi> And there is this reaſon for tranſlating it ſo in this place, becauſe in the very next <hi>verſe</hi> our Saviour ſpeaking of the ſame Matter, expreſly ſays, <hi>He that is able to receive it, let him receive it.</hi> Now I ſhould think that this at leaſt implies that ſome <hi>cannot</hi> re<g ref="char:EOLhyphen"/>ceive it; and yet as forward a Man as you are, I ſuppoſe you will hardly ſay, our Saviour put in the word [<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>Able</hi>] <hi>in favour of the Fleſh.</hi>
+            </p>
+            <p>
+               <q>Alſo the words of <hi>Job, chap.</hi> 7. and many other Texts, eſpecially, <hi>Exod.</hi> 20.4. in hatred of the <hi>Picture</hi> of our Saviour, <hi>Non facies tibi ſculptile:</hi> which word <hi>ſculptile</hi> is by the Seventy Interpre<g ref="char:EOLhyphen"/>ters Tranſlated <hi>Idol,</hi> as indeed it ought to be, be<g ref="char:EOLhyphen"/>cauſe God did not forbid Images but Idols.</q>
+            </p>
+            <p>As for <hi>Job</hi> 7.1. it is rendred without the leaſt liberty of Paraphraſe, and word for word, ex<g ref="char:EOLhyphen"/>cepting only the addition of the neceſſary expletives to expreſs an Interrogation in Engliſh. But what do I trouble my ſelf to find out ſome colour of a Fault, when you ſet me to ſeek one? The place concerns no manner of Controvſſie between us. And I am apt to think that you borrowed it out of a Book that was falſe printed, and then had not judgment enough to correct it.</p>
+            <p>At laſt we have, it ſeems, corrupted, <hi>Exod.</hi> 20.4. by putting the words <hi>Graven Image,</hi> in the Second Commandment, for is not that it you would have? And pray why ſhould we not do ſo, ſince not only the <hi>Hebrew,</hi>
+               <note n="(c)" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </note> but even your own <hi>Vulgar</hi> has the ſame; which you here confeſs to be, <hi>Non facies tibi ſculptile.</hi> For what is a <hi>Graven Thing</hi> here, but a
+<pb n="47" facs="tcp:44074:25"/>Graven Image? Oh, but this word <hi>Sculptile</hi> is by the Seventy Interpreters tranſlated <hi>Idol.</hi> Thou haſt a lucky Brain: Belike then, the Seventy had the Vurgar <hi>Latin</hi> before them, and followed it in this place. To what purpoſe is it to ſpend time upon ſuch ſtuff as this? Look, Sir, this is the ſhort of the Buſineſs, the <hi>Septuagints</hi> Tranſlation is Good, and the <hi>Vulgar</hi> Tranſlation is Good; and that becauſe it will hold good to the Worlds end, that <hi>Graven Images,</hi> or any <hi>likeneſſes</hi> whatever, that are worship<g ref="char:EOLhyphen"/>ed, are <hi>Idols,</hi> not excepting the <hi>Picture of our Sa<g ref="char:EOLhyphen"/>viour,</hi> if we had it; which I do not ſay, <hi>in hatred of the Picture of our Saviour,</hi> unleſs I muſt needs <hi>hate</hi> every thing which I do not worſhip. But I know no neceſſity of that; for I am far enough from <hi>worſhipping</hi> your own ſelf, and yet I cannot find in my heart to <hi>hate</hi> you: But I wiſh you well, and ſhall therefore give you a little good advice.</p>
+            <p>Do not for the future, as I hinted to you before, meddle with Kings or Queens, <hi>Cardinals, Archbi<g ref="char:EOLhyphen"/>hops,</hi> or Noblemen, for they are <hi>Perſons</hi> too high for you; nor with the <hi>Septuagint,</hi> or the com<g ref="char:EOLhyphen"/>paring of <hi>Originals</hi> and <hi>Tranſlations,</hi> as I add now; for theſe are <hi>things</hi> too high for you too. And for the ſame Reaſon, meddle no more between <hi>Churches,</hi> trouble your Head no more about Queſti<g ref="char:EOLhyphen"/>ons, relating to <hi>Holy Orders, Miſſion, Succeſſion,</hi> and the <hi>Power of Reformation;</hi> Give not your ſelf to Controverſies, and, above all things, write no more Queries. And if this diſtemper be once cured, I'll not <hi>deſpair,</hi> but that your Ingenuity may direct you to an Imployment more ſuitable to your capaci<g ref="char:EOLhyphen"/>ty, ſo that you may be able to give a tolerable Ac<g ref="char:EOLhyphen"/>count of the Time.</p>
+            <closer>
+               <salute>Farewel.</salute>
+            </closer>
+            <trailer>FINIS.</trailer>
+         </div>
+         <div type="errata">
+            <pb facs="tcp:44074:26"/>
+            <head>ERRATA.</head>
+            <p>PAge 14. line 3. for <hi>uſing,</hi> read <hi>uſe<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>.</hi> P. 15. l.8. f. <hi>appears,</hi> r. <hi>ap<g ref="char:EOLhyphen"/>proves.</hi> P. 45. l. 2. f. <hi>due,</hi> r. <hi>ſub<gap reason="illegible" resp="#UOM" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>
+               </hi> P. 47. l. laſt, f. <hi>the,</hi> r. <hi>your.</hi>
+            </p>
+         </div>
+      </body>
+      <back>
+         <div type="publishers_advertisement">
+            <head>Books lately Printed for <hi>James Adamſon.</hi>
+            </head>
+            <p n="1">I. Mr. <hi>Chillingworth</hi>'s Book, called [<hi>The Religion of Proteſtants a ſafe way to Salvation</hi>] made more generally uſeful by omitting Perſonal Con<g ref="char:EOLhyphen"/>teſts, but inſerting whatſoever concerns the common Cauſe of <hi>Proteſtants,</hi> or defends the <hi>Church of Eng<g ref="char:EOLhyphen"/>land,</hi> with an exact Table of Contents; and an <hi>Ad<g ref="char:EOLhyphen"/>dition</hi> of ſome genuine Pieces of Mr. <hi>Chillingworth's</hi> never before printed, <hi>viz.</hi> againſt the <hi>Infallibility</hi> of the <hi>Roman</hi> Church, <hi>Tranſubſtantiation, Tradition,</hi> &amp;c. And an Account of what moved the Author to turn Papiſt, with his Confutation of the ſaid Mo<g ref="char:EOLhyphen"/>rives, <hi>Quarto.</hi>
+            </p>
+            <p n="2">II. Two Diſcourſes of Purgatory, and Prayers for the Dead, in <hi>Quarto.</hi>
+            </p>
+            <p n="3">III. The Preſent State of the Controverſie, be<g ref="char:EOLhyphen"/>tween the Church of <hi>England,</hi> and the Church of <hi>Rome:</hi> Or an Account <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the Books written on both ſides, in a Letter to a <gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap>end, in <hi>Quarto.</hi>
+            </p>
+            <p n="4">IV. A Treatiſe of the Celibacy of the Clergy, wherein its Riſe and Progreſs are Hiſtorically con<g ref="char:EOLhyphen"/>ſidered, in <hi>Quarto.</hi>
+            </p>
+            <p n="5">V. <hi>Clementis Epiſtolae duae ad Corinthos. Interpre<g ref="char:EOLhyphen"/>tibus Patricio, J<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>lio, Gothifredo, Vandelino &amp; Joh. Bapt. Cotele<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>io. Recenſuit &amp; notarum ſpicilegium ad<g ref="char:EOLhyphen"/>jecil Paulus <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>eſius, Bibliothecae Lambethanae cura<g ref="char:EOLhyphen"/>tor Accedit T<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> Brunonici Windſorienſis diſcertatio de Therapeutis Philonis. His ſubnexae ſunt Epiſtolae aliquot ſingulares, vel nunc primum editae, vel non ita facilè obviae, in</hi> Quato.</p>
+            <p n="6">VI. The Travels of <hi>Monſieur de Thevenot</hi> into the <hi>Levant</hi> in Three Parts, <hi>viz.</hi> 1. Into <hi>Turky,</hi> 2. <hi>Per<g ref="char:EOLhyphen"/>ſia,</hi> 3. The <hi>Eaſt Indies,</hi> in <hi>Folio.</hi>
+            </p>
+         </div>
+      </back>
+   </text>
+</TEI>
